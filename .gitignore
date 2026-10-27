@@ -1,11 +1,6 @@
 /vendor/
 /composer.lock
 /.phpunit.cache/
+/.phpstan-cache/
 .phpunit.result.cache
-/docs
-/tests
-/phpunit.xml.dist
-/.github/workflows/tests.yml
-/CHANGELOG.md
-/CONTRIBUTING.md
-/benchmarks
+/database-results.xml

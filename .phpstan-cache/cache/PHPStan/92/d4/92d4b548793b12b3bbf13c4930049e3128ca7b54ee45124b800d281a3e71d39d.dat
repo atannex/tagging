@@ -1,1 +1,0 @@
-O:23:"PHPStan\Cache\CacheItem":2:{s:11:"variableKey";s:71:"v2-0a351aca2b389f4980bf8b9718025f51eb99a458439edb347b0ea53a005f08d6-8.5";s:4:"data";a:3:{s:7:"classes";a:1:{s:51:"illuminate\database\eloquent\modelnotfoundexception";b:1;}s:9:"functions";a:0:{}s:9:"constants";a:0:{}}}
