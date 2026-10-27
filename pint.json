@@ -1,0 +1,5 @@
+{
+    "preset": "laravel",
+    "exclude": ["vendor"],
+    "notPath": ["database/migrations/2026_10_27_000001_create_tagging_tables.php"]
+}

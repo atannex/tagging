@@ -1,0 +1,1 @@
+O:23:"PHPStan\Cache\CacheItem":2:{s:11:"variableKey";s:71:"v2-b0c8072a60bd08628341a745e883e4ef5800d665d7474529ea8e2b9152c17a85-8.5";s:4:"data";a:3:{s:7:"classes";a:1:{s:53:"illuminate\database\eloquent\relations\morphoneormany";b:1;}s:9:"functions";a:0:{}s:9:"constants";a:0:{}}}

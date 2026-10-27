@@ -1,0 +1,393 @@
+O:23:"PHPStan\Cache\CacheItem":2:{s:11:"variableKey";s:35:"v3-6.75.0.2-dev-master@e4f5f6c-8.5-";s:4:"data";a:22:{s:13:"locatedSource";a:2:{s:5:"class";s:68:"PHPStan\BetterReflection\SourceLocator\Located\InternalLocatedSource";s:4:"data";a:4:{s:4:"name";s:12:"PDOStatement";s:8:"filename";s:27:"phpstorm-stubs:PDO/PDO.stub";s:13:"extensionName";s:3:"PDO";s:9:"aliasName";N;}}s:9:"namespace";N;s:4:"name";s:12:"PDOStatement";s:9:"shortName";s:12:"PDOStatement";s:11:"isInterface";b:0;s:7:"isTrait";b:0;s:6:"isEnum";b:0;s:12:"isBackedEnum";b:0;s:9:"modifiers";i:0;s:10:"docComment";s:224:"/**
+ * (PHP 5 &gt;= 5.1.0, PHP 7, PECL pdo &gt;= 1.0.0)<br/>
+ * Represents a prepared statement and, after the statement is executed, an
+ * associated result set.
+ * @link https://php.net/manual/en/class.pdostatement.php
+ */";s:10:"attributes";a:0:{}s:9:"startLine";i:16;s:7:"endLine";i:586;s:11:"startColumn";i:5;s:9:"endColumn";i:5;s:15:"parentClassName";N;s:20:"implementsClassNames";a:1:{i:0;s:17:"IteratorAggregate";}s:15:"traitClassNames";a:0:{}s:18:"immediateConstants";a:0:{}s:19:"immediateProperties";a:1:{s:11:"queryString";a:16:{s:18:"declaringClassName";s:12:"PDOStatement";s:21:"implementingClassName";s:12:"PDOStatement";s:4:"name";s:11:"queryString";s:9:"modifiers";i:1;s:4:"type";a:2:{s:5:"class";s:55:"PHPStan\BetterReflection\Reflection\ReflectionNamedType";s:4:"data";a:2:{s:4:"name";s:6:"string";s:12:"isIdentifier";b:1;}}s:7:"default";N;s:10:"docComment";s:22:"/**
+ * @var string
+ */";s:10:"attributes";a:1:{i:0;a:3:{s:4:"name";s:50:"JetBrains\PhpStorm\Internal\LanguageLevelTypeAware";s:10:"isRepeated";b:0;s:9:"arguments";a:2:{i:0;a:2:{s:4:"code";s:19:"['8.1' => 'string']";s:10:"attributes";a:6:{s:9:"startLine";i:21;s:7:"endLine";i:21;s:13:"startTokenPos";i:53;s:12:"startFilePos";i:725;s:11:"endTokenPos";i:59;s:10:"endFilePos";i:743;}}s:7:"default";a:2:{s:4:"code";s:2:"''";s:10:"attributes";a:6:{s:9:"startLine";i:21;s:7:"endLine";i:21;s:13:"startTokenPos";i:65;s:12:"startFilePos";i:755;s:11:"endTokenPos";i:65;s:10:"endFilePos";i:756;}}}}}s:9:"startLine";i:21;s:7:"endLine";i:22;s:11:"startColumn";i:9;s:9:"endColumn";i:35;s:10:"isPromoted";b:0;s:21:"declaredAtCompileTime";b:1;s:16:"immediateVirtual";b:0;s:14:"immediateHooks";a:0:{}}}s:16:"immediateMethods";a:23:{s:7:"execute";a:20:{s:4:"name";s:7:"execute";s:10:"parameters";a:1:{s:6:"params";a:14:{s:4:"name";s:6:"params";s:7:"default";a:2:{s:4:"code";s:5:"\null";s:10:"attributes";a:6:{s:9:"startLine";i:50;s:7:"endLine";i:50;s:13:"startTokenPos";i:116;s:12:"startFilePos";i:2157;s:11:"endTokenPos";i:116;s:10:"endFilePos";i:2160;}}s:4:"type";a:2:{s:5:"class";s:55:"PHPStan\BetterReflection\Reflection\ReflectionUnionType";s:4:"data";a:1:{s:5:"types";a:2:{i:0;a:2:{s:5:"class";s:55:"PHPStan\BetterReflection\Reflection\ReflectionNamedType";s:4:"data";a:2:{s:4:"name";s:5:"array";s:12:"isIdentifier";b:1;}}i:1;a:2:{s:5:"class";s:55:"PHPStan\BetterReflection\Reflection\ReflectionNamedType";s:4:"data";a:2:{s:4:"name";s:4:"null";s:12:"isIdentifier";b:1;}}}}}s:10:"isVariadic";b:0;s:5:"byRef";b:0;s:10:"isPromoted";b:0;s:10:"docComment";N;s:10:"attributes";a:1:{i:0;a:3:{s:4:"name";s:50:"JetBrains\PhpStorm\Internal\LanguageLevelTypeAware";s:10:"isRepeated";b:0;s:9:"arguments";a:2:{i:0;a:2:{s:4:"code";s:23:"['8.0' => 'array|null']";s:10:"attributes";a:6:{s:9:"startLine";i:49;s:7:"endLine";i:49;s:13:"startTokenPos";i:92;s:12:"startFilePos";i:2085;s:11:"endTokenPos";i:98;s:10:"endFilePos";i:2107;}}s:7:"default";a:2:{s:4:"code";s:2:"''";s:10:"attributes";a:6:{s:9:"startLine";i:49;s:7:"endLine";i:49;s:13:"startTokenPos";i:104;s:12:"startFilePos";i:2119;s:11:"endTokenPos";i:104;s:10:"endFilePos";i:2120;}}}}}s:9:"startLine";i:49;s:7:"endLine";i:50;s:11:"startColumn";i:13;s:9:"endColumn";i:37;s:14:"parameterIndex";i:0;s:10:"isOptional";b:1;}}s:16:"returnsReference";b:0;s:10:"returnType";a:2:{s:5:"class";s:55:"PHPStan\BetterReflection\Reflection\ReflectionNamedType";s:4:"data";a:2:{s:4:"name";s:4:"bool";s:12:"isIdentifier";b:1;}}s:10:"attributes";a:1:{i:0;a:3:{s:4:"name";s:41:"JetBrains\PhpStorm\Internal\TentativeType";s:10:"isRepeated";b:0;s:9:"arguments";a:0:{}}}s:10:"docComment";s:943:"/**
+ * (PHP 5 &gt;= 5.1.0, PHP 7, PECL pdo &gt;= 0.1.0)<br/>
+ * Executes a prepared statement
+ * @link https://php.net/manual/en/pdostatement.execute.php
+ * @param array $params [optional] <p>
+ * An array of values with as many elements as there are bound
+ * parameters in the SQL statement being executed.
+ * All values are treated as <b>PDO::PARAM_STR</b>.
+ * </p>
+ * <p>
+ * You cannot bind multiple values to a single parameter; for example,
+ * you cannot bind two values to a single named parameter in an IN()
+ * clause.
+ * </p>
+ * <p>
+ * You cannot bind more values than specified; if more keys exist in
+ * <i>input_parameters</i> than in the SQL specified
+ * in the <b>PDO::prepare</b>, then the statement will
+ * fail and an error is emitted.
+ * </p>
+ * @return bool <b>TRUE</b> on success or <b>FALSE</b> on failure.
+ * @throws PDOException On error if PDO::ERRMODE_EXCEPTION option is true.
+ * @betterReflectionTentativeReturnType
+ */";s:9:"startLine";i:47;s:7:"endLine";i:53;s:11:"startColumn";i:9;s:9:"endColumn";i:9;s:10:"couldThrow";b:0;s:9:"isClosure";b:0;s:11:"isGenerator";b:0;s:10:"isVariadic";b:0;s:9:"modifiers";i:1;s:9:"namespace";N;s:18:"declaringClassName";s:12:"PDOStatement";s:21:"implementingClassName";s:12:"PDOStatement";s:16:"currentClassName";s:12:"PDOStatement";s:9:"aliasName";N;}s:5:"fetch";a:20:{s:4:"name";s:5:"fetch";s:10:"parameters";a:3:{s:4:"mode";a:14:{s:4:"name";s:4:"mode";s:7:"default";a:2:{s:4:"code";s:19:"\PDO::FETCH_DEFAULT";s:10:"attributes";a:6:{s:9:"startLine";i:92;s:7:"endLine";i:92;s:13:"startTokenPos";i:165;s:12:"startFilePos";i:4227;s:11:"endTokenPos";i:167;s:10:"endFilePos";i:4244;}}s:4:"type";a:2:{s:5:"class";s:55:"PHPStan\BetterReflection\Reflection\ReflectionNamedType";s:4:"data";a:2:{s:4:"name";s:3:"int";s:12:"isIdentifier";b:1;}}s:10:"isVariadic";b:0;s:5:"byRef";b:0;s:10:"isPromoted";b:0;s:10:"docComment";N;s:10:"attributes";a:1:{i:0;a:3:{s:4:"name";s:50:"JetBrains\PhpStorm\Internal\LanguageLevelTypeAware";s:10:"isRepeated";b:0;s:9:"arguments";a:2:{i:0;a:2:{s:4:"code";s:16:"['8.0' => 'int']";s:10:"attributes";a:6:{s:9:"startLine";i:91;s:7:"endLine";i:91;s:13:"startTokenPos";i:143;s:12:"startFilePos";i:4171;s:11:"endTokenPos";i:149;s:10:"endFilePos";i:4186;}}s:7:"default";a:2:{s:4:"code";s:2:"''";s:10:"attributes";a:6:{s:9:"startLine";i:91;s:7:"endLine";i:91;s:13:"startTokenPos";i:155;s:12:"startFilePos";i:4198;s:11:"endTokenPos";i:155;s:10:"endFilePos";i:4199;}}}}}s:9:"startLine";i:91;s:7:"endLine";i:92;s:11:"startColumn";i:13;s:9:"endColumn";i:42;s:14:"parameterIndex";i:0;s:10:"isOptional";b:1;}s:17:"cursorOrientation";a:14:{s:4:"name";s:17:"cursorOrientation";s:7:"default";a:2:{s:4:"code";s:20:"\PDO::FETCH_ORI_NEXT";s:10:"attributes";a:6:{s:9:"startLine";i:94;s:7:"endLine";i:94;s:13:"startTokenPos";i:195;s:12:"startFilePos";i:4382;s:11:"endTokenPos";i:197;s:10:"endFilePos";i:4400;}}s:4:"type";a:2:{s:5:"class";s:55:"PHPStan\BetterReflection\Reflection\ReflectionNamedType";s:4:"data";a:2:{s:4:"name";s:3:"int";s:12:"isIdentifier";b:1;}}s:10:"isVariadic";b:0;s:5:"byRef";b:0;s:10:"isPromoted";b:0;s:10:"docComment";N;s:10:"attributes";a:1:{i:0;a:3:{s:4:"name";s:50:"JetBrains\PhpStorm\Internal\LanguageLevelTypeAware";s:10:"isRepeated";b:0;s:9:"arguments";a:2:{i:0;a:2:{s:4:"code";s:16:"['8.0' => 'int']";s:10:"attributes";a:6:{s:9:"startLine";i:93;s:7:"endLine";i:93;s:13:"startTokenPos";i:173;s:12:"startFilePos";i:4313;s:11:"endTokenPos";i:179;s:10:"endFilePos";i:4328;}}s:7:"default";a:2:{s:4:"code";s:2:"''";s:10:"attributes";a:6:{s:9:"startLine";i:93;s:7:"endLine";i:93;s:13:"startTokenPos";i:185;s:12:"startFilePos";i:4340;s:11:"endTokenPos";i:185;s:10:"endFilePos";i:4341;}}}}}s:9:"startLine";i:93;s:7:"endLine";i:94;s:11:"startColumn";i:13;s:9:"endColumn";i:56;s:14:"parameterIndex";i:1;s:10:"isOptional";b:1;}s:12:"cursorOffset";a:14:{s:4:"name";s:12:"cursorOffset";s:7:"default";a:2:{s:4:"code";s:1:"0";s:10:"attributes";a:6:{s:9:"startLine";i:96;s:7:"endLine";i:96;s:13:"startTokenPos";i:225;s:12:"startFilePos";i:4533;s:11:"endTokenPos";i:225;s:10:"endFilePos";i:4533;}}s:4:"type";a:2:{s:5:"class";s:55:"PHPStan\BetterReflection\Reflection\ReflectionNamedType";s:4:"data";a:2:{s:4:"name";s:3:"int";s:12:"isIdentifier";b:1;}}s:10:"isVariadic";b:0;s:5:"byRef";b:0;s:10:"isPromoted";b:0;s:10:"docComment";N;s:10:"attributes";a:1:{i:0;a:3:{s:4:"name";s:50:"JetBrains\PhpStorm\Internal\LanguageLevelTypeAware";s:10:"isRepeated";b:0;s:9:"arguments";a:2:{i:0;a:2:{s:4:"code";s:16:"['8.0' => 'int']";s:10:"attributes";a:6:{s:9:"startLine";i:95;s:7:"endLine";i:95;s:13:"startTokenPos";i:203;s:12:"startFilePos";i:4469;s:11:"endTokenPos";i:209;s:10:"endFilePos";i:4484;}}s:7:"default";a:2:{s:4:"code";s:2:"''";s:10:"attributes";a:6:{s:9:"startLine";i:95;s:7:"endLine";i:95;s:13:"startTokenPos";i:215;s:12:"startFilePos";i:4496;s:11:"endTokenPos";i:215;s:10:"endFilePos";i:4497;}}}}}s:9:"startLine";i:95;s:7:"endLine";i:96;s:11:"startColumn";i:13;s:9:"endColumn";i:33;s:14:"parameterIndex";i:2;s:10:"isOptional";b:1;}}s:16:"returnsReference";b:0;s:10:"returnType";a:2:{s:5:"class";s:55:"PHPStan\BetterReflection\Reflection\ReflectionNamedType";s:4:"data";a:2:{s:4:"name";s:5:"mixed";s:12:"isIdentifier";b:1;}}s:10:"attributes";a:1:{i:0;a:3:{s:4:"name";s:41:"JetBrains\PhpStorm\Internal\TentativeType";s:10:"isRepeated";b:0;s:9:"arguments";a:0:{}}}s:10:"docComment";s:1541:"/**
+ * (PHP 5 &gt;= 5.1.0, PHP 7, PECL pdo &gt;= 0.1.0)<br/>
+ * Fetches the next row from a result set
+ * @link https://php.net/manual/en/pdostatement.fetch.php
+ * @param int $mode [optional] <p>
+ * Controls how the next row will be returned to the caller. This value
+ * must be one of the PDO::FETCH_* constants,
+ * defaulting to value of PDO::ATTR_DEFAULT_FETCH_MODE
+ * (which defaults to PDO::FETCH_BOTH).
+ * </p>
+ * <p>
+ * PDO::FETCH_ASSOC: returns an array indexed by column
+ * name as returned in your result set
+ * </p>
+ * @param int $cursorOrientation [optional] <p>
+ * For a PDOStatement object representing a scrollable cursor, this
+ * value determines which row will be returned to the caller. This value
+ * must be one of the PDO::FETCH_ORI_* constants,
+ * defaulting to PDO::FETCH_ORI_NEXT. To request a
+ * scrollable cursor for your PDOStatement object, you must set the
+ * PDO::ATTR_CURSOR attribute to
+ * PDO::CURSOR_SCROLL when you prepare the SQL
+ * statement with <b>PDO::prepare</b>.
+ * </p>
+ * @param int $cursorOffset [optional]
+ * @return ($mode is PDO::FETCH_ASSOC ? array<string, mixed>|false
+ *     : ($mode is PDO::FETCH_NUM ? list<mixed>|false
+ *     : ($mode is PDO::FETCH_BOTH ? array<string|int, mixed>|false
+ *     : ($mode is PDO::FETCH_OBJ ? \stdClass|false
+ *     : ($mode is PDO::FETCH_COLUMN ? mixed
+ *     : ($mode is PDO::FETCH_NAMED ? array<string, mixed>|false
+ *     : mixed))))))
+ * @throws PDOException On error if PDO::ERRMODE_EXCEPTION option is true.
+ * @betterReflectionTentativeReturnType
+ */";s:9:"startLine";i:89;s:7:"endLine";i:99;s:11:"startColumn";i:9;s:9:"endColumn";i:9;s:10:"couldThrow";b:0;s:9:"isClosure";b:0;s:11:"isGenerator";b:0;s:10:"isVariadic";b:0;s:9:"modifiers";i:1;s:9:"namespace";N;s:18:"declaringClassName";s:12:"PDOStatement";s:21:"implementingClassName";s:12:"PDOStatement";s:16:"currentClassName";s:12:"PDOStatement";s:9:"aliasName";N;}s:9:"bindParam";a:20:{s:4:"name";s:9:"bindParam";s:10:"parameters";a:5:{s:5:"param";a:14:{s:4:"name";s:5:"param";s:7:"default";N;s:4:"type";a:2:{s:5:"class";s:55:"PHPStan\BetterReflection\Reflection\ReflectionUnionType";s:4:"data";a:1:{s:5:"types";a:2:{i:0;a:2:{s:5:"class";s:55:"PHPStan\BetterReflection\Reflection\ReflectionNamedType";s:4:"data";a:2:{s:4:"name";s:3:"int";s:12:"isIdentifier";b:1;}}i:1;a:2:{s:5:"class";s:55:"PHPStan\BetterReflection\Reflection\ReflectionNamedType";s:4:"data";a:2:{s:4:"name";s:6:"string";s:12:"isIdentifier";b:1;}}}}}s:10:"isVariadic";b:0;s:5:"byRef";b:0;s:10:"isPromoted";b:0;s:10:"docComment";N;s:10:"attributes";a:1:{i:0;a:3:{s:4:"name";s:50:"JetBrains\PhpStorm\Internal\LanguageLevelTypeAware";s:10:"isRepeated";b:0;s:9:"arguments";a:2:{i:0;a:2:{s:4:"code";s:23:"['8.0' => 'int|string']";s:10:"attributes";a:6:{s:9:"startLine";i:134;s:7:"endLine";i:134;s:13:"startTokenPos";i:252;s:12:"startFilePos";i:6264;s:11:"endTokenPos";i:258;s:10:"endFilePos";i:6286;}}s:7:"default";a:2:{s:4:"code";s:2:"''";s:10:"attributes";a:6:{s:9:"startLine";i:134;s:7:"endLine";i:134;s:13:"startTokenPos";i:264;s:12:"startFilePos";i:6298;s:11:"endTokenPos";i:264;s:10:"endFilePos";i:6299;}}}}}s:9:"startLine";i:134;s:7:"endLine";i:135;s:11:"startColumn";i:13;s:9:"endColumn";i:29;s:14:"parameterIndex";i:0;s:10:"isOptional";b:0;}s:3:"var";a:14:{s:4:"name";s:3:"var";s:7:"default";N;s:4:"type";a:2:{s:5:"class";s:55:"PHPStan\BetterReflection\Reflection\ReflectionNamedType";s:4:"data";a:2:{s:4:"name";s:5:"mixed";s:12:"isIdentifier";b:1;}}s:10:"isVariadic";b:0;s:5:"byRef";b:1;s:10:"isPromoted";b:0;s:10:"docComment";N;s:10:"attributes";a:1:{i:0;a:3:{s:4:"name";s:50:"JetBrains\PhpStorm\Internal\LanguageLevelTypeAware";s:10:"isRepeated";b:0;s:9:"arguments";a:2:{i:0;a:2:{s:4:"code";s:18:"['8.0' => 'mixed']";s:10:"attributes";a:6:{s:9:"startLine";i:136;s:7:"endLine";i:136;s:13:"startTokenPos";i:278;s:12:"startFilePos";i:6400;s:11:"endTokenPos";i:284;s:10:"endFilePos";i:6417;}}s:7:"default";a:2:{s:4:"code";s:2:"''";s:10:"attributes";a:6:{s:9:"startLine";i:136;s:7:"endLine";i:136;s:13:"startTokenPos";i:290;s:12:"startFilePos";i:6429;s:11:"endTokenPos";i:290;s:10:"endFilePos";i:6430;}}}}}s:9:"startLine";i:136;s:7:"endLine";i:137;s:11:"startColumn";i:13;s:9:"endColumn";i:23;s:14:"parameterIndex";i:1;s:10:"isOptional";b:0;}s:4:"type";a:14:{s:4:"name";s:4:"type";s:7:"default";a:2:{s:4:"code";s:15:"\PDO::PARAM_STR";s:10:"attributes";a:6:{s:9:"startLine";i:139;s:7:"endLine";i:139;s:13:"startTokenPos";i:325;s:12:"startFilePos";i:6581;s:11:"endTokenPos";i:327;s:10:"endFilePos";i:6594;}}s:4:"type";a:2:{s:5:"class";s:55:"PHPStan\BetterReflection\Reflection\ReflectionNamedType";s:4:"data";a:2:{s:4:"name";s:3:"int";s:12:"isIdentifier";b:1;}}s:10:"isVariadic";b:0;s:5:"byRef";b:0;s:10:"isPromoted";b:0;s:10:"docComment";N;s:10:"attributes";a:1:{i:0;a:3:{s:4:"name";s:50:"JetBrains\PhpStorm\Internal\LanguageLevelTypeAware";s:10:"isRepeated";b:0;s:9:"arguments";a:2:{i:0;a:2:{s:4:"code";s:16:"['8.0' => 'int']";s:10:"attributes";a:6:{s:9:"startLine";i:138;s:7:"endLine";i:138;s:13:"startTokenPos";i:303;s:12:"startFilePos";i:6525;s:11:"endTokenPos";i:309;s:10:"endFilePos";i:6540;}}s:7:"default";a:2:{s:4:"code";s:2:"''";s:10:"attributes";a:6:{s:9:"startLine";i:138;s:7:"endLine";i:138;s:13:"startTokenPos";i:315;s:12:"startFilePos";i:6552;s:11:"endTokenPos";i:315;s:10:"endFilePos";i:6553;}}}}}s:9:"startLine";i:138;s:7:"endLine";i:139;s:11:"startColumn";i:13;s:9:"endColumn";i:38;s:14:"parameterIndex";i:2;s:10:"isOptional";b:1;}s:9:"maxLength";a:14:{s:4:"name";s:9:"maxLength";s:7:"default";a:2:{s:4:"code";s:1:"0";s:10:"attributes";a:6:{s:9:"startLine";i:141;s:7:"endLine";i:141;s:13:"startTokenPos";i:355;s:12:"startFilePos";i:6724;s:11:"endTokenPos";i:355;s:10:"endFilePos";i:6724;}}s:4:"type";a:2:{s:5:"class";s:55:"PHPStan\BetterReflection\Reflection\ReflectionNamedType";s:4:"data";a:2:{s:4:"name";s:3:"int";s:12:"isIdentifier";b:1;}}s:10:"isVariadic";b:0;s:5:"byRef";b:0;s:10:"isPromoted";b:0;s:10:"docComment";N;s:10:"attributes";a:1:{i:0;a:3:{s:4:"name";s:50:"JetBrains\PhpStorm\Internal\LanguageLevelTypeAware";s:10:"isRepeated";b:0;s:9:"arguments";a:2:{i:0;a:2:{s:4:"code";s:16:"['8.0' => 'int']";s:10:"attributes";a:6:{s:9:"startLine";i:140;s:7:"endLine";i:140;s:13:"startTokenPos";i:333;s:12:"startFilePos";i:6663;s:11:"endTokenPos";i:339;s:10:"endFilePos";i:6678;}}s:7:"default";a:2:{s:4:"code";s:2:"''";s:10:"attributes";a:6:{s:9:"startLine";i:140;s:7:"endLine";i:140;s:13:"startTokenPos";i:345;s:12:"startFilePos";i:6690;s:11:"endTokenPos";i:345;s:10:"endFilePos";i:6691;}}}}}s:9:"startLine";i:140;s:7:"endLine";i:141;s:11:"startColumn";i:13;s:9:"endColumn";i:30;s:14:"parameterIndex";i:3;s:10:"isOptional";b:1;}s:13:"driverOptions";a:14:{s:4:"name";s:13:"driverOptions";s:7:"default";a:2:{s:4:"code";s:5:"\null";s:10:"attributes";a:6:{s:9:"startLine";i:143;s:7:"endLine";i:143;s:13:"startTokenPos";i:383;s:12:"startFilePos";i:6862;s:11:"endTokenPos";i:383;s:10:"endFilePos";i:6865;}}s:4:"type";a:2:{s:5:"class";s:55:"PHPStan\BetterReflection\Reflection\ReflectionNamedType";s:4:"data";a:2:{s:4:"name";s:5:"mixed";s:12:"isIdentifier";b:1;}}s:10:"isVariadic";b:0;s:5:"byRef";b:0;s:10:"isPromoted";b:0;s:10:"docComment";N;s:10:"attributes";a:1:{i:0;a:3:{s:4:"name";s:50:"JetBrains\PhpStorm\Internal\LanguageLevelTypeAware";s:10:"isRepeated";b:0;s:9:"arguments";a:2:{i:0;a:2:{s:4:"code";s:18:"['8.0' => 'mixed']";s:10:"attributes";a:6:{s:9:"startLine";i:142;s:7:"endLine";i:142;s:13:"startTokenPos";i:361;s:12:"startFilePos";i:6793;s:11:"endTokenPos";i:367;s:10:"endFilePos";i:6810;}}s:7:"default";a:2:{s:4:"code";s:2:"''";s:10:"attributes";a:6:{s:9:"startLine";i:142;s:7:"endLine";i:142;s:13:"startTokenPos";i:373;s:12:"startFilePos";i:6822;s:11:"endTokenPos";i:373;s:10:"endFilePos";i:6823;}}}}}s:9:"startLine";i:142;s:7:"endLine";i:143;s:11:"startColumn";i:13;s:9:"endColumn";i:39;s:14:"parameterIndex";i:4;s:10:"isOptional";b:1;}}s:16:"returnsReference";b:0;s:10:"returnType";a:2:{s:5:"class";s:55:"PHPStan\BetterReflection\Reflection\ReflectionNamedType";s:4:"data";a:2:{s:4:"name";s:4:"bool";s:12:"isIdentifier";b:1;}}s:10:"attributes";a:1:{i:0;a:3:{s:4:"name";s:41:"JetBrains\PhpStorm\Internal\TentativeType";s:10:"isRepeated";b:0;s:9:"arguments";a:0:{}}}s:10:"docComment";s:1280:"/**
+ * (PHP 5 &gt;= 5.1.0, PHP 7, PECL pdo &gt;= 0.1.0)<br/>
+ * Binds a parameter to the specified variable name
+ * @link https://php.net/manual/en/pdostatement.bindparam.php
+ * @param mixed $param <p>
+ * Parameter identifier. For a prepared statement using named
+ * placeholders, this will be a parameter name of the form
+ * :name. For a prepared statement using
+ * question mark placeholders, this will be the 1-indexed position of
+ * the parameter.
+ * </p>
+ * @param mixed &$var <p>
+ * Name of the PHP variable to bind to the SQL statement parameter.
+ * </p>
+ * @param int $type [optional] <p>
+ * Explicit data type for the parameter using the PDO::PARAM_*
+ * constants.
+ * To return an INOUT parameter from a stored procedure,
+ * use the bitwise OR operator to set the PDO::PARAM_INPUT_OUTPUT bits
+ * for the <i>data_type</i> parameter.
+ * </p>
+ * @param int $maxLength [optional] <p>
+ * Length of the data type. To indicate that a parameter is an OUT
+ * parameter from a stored procedure, you must explicitly set the
+ * length.
+ * </p>
+ * @param mixed $driverOptions [optional] <p>
+ * </p>
+ * @return bool <b>TRUE</b> on success or <b>FALSE</b> on failure.
+ * @throws PDOException On error if PDO::ERRMODE_EXCEPTION option is true.
+ * @betterReflectionTentativeReturnType
+ */";s:9:"startLine";i:132;s:7:"endLine";i:146;s:11:"startColumn";i:9;s:9:"endColumn";i:9;s:10:"couldThrow";b:0;s:9:"isClosure";b:0;s:11:"isGenerator";b:0;s:10:"isVariadic";b:0;s:9:"modifiers";i:1;s:9:"namespace";N;s:18:"declaringClassName";s:12:"PDOStatement";s:21:"implementingClassName";s:12:"PDOStatement";s:16:"currentClassName";s:12:"PDOStatement";s:9:"aliasName";N;}s:10:"bindColumn";a:20:{s:4:"name";s:10:"bindColumn";s:10:"parameters";a:5:{s:6:"column";a:14:{s:4:"name";s:6:"column";s:7:"default";N;s:4:"type";a:2:{s:5:"class";s:55:"PHPStan\BetterReflection\Reflection\ReflectionUnionType";s:4:"data";a:1:{s:5:"types";a:2:{i:0;a:2:{s:5:"class";s:55:"PHPStan\BetterReflection\Reflection\ReflectionNamedType";s:4:"data";a:2:{s:4:"name";s:3:"int";s:12:"isIdentifier";b:1;}}i:1;a:2:{s:5:"class";s:55:"PHPStan\BetterReflection\Reflection\ReflectionNamedType";s:4:"data";a:2:{s:4:"name";s:6:"string";s:12:"isIdentifier";b:1;}}}}}s:10:"isVariadic";b:0;s:5:"byRef";b:0;s:10:"isPromoted";b:0;s:10:"docComment";N;s:10:"attributes";a:1:{i:0;a:3:{s:4:"name";s:50:"JetBrains\PhpStorm\Internal\LanguageLevelTypeAware";s:10:"isRepeated";b:0;s:9:"arguments";a:2:{i:0;a:2:{s:4:"code";s:23:"['8.0' => 'int|string']";s:10:"attributes";a:6:{s:9:"startLine";i:174;s:7:"endLine";i:174;s:13:"startTokenPos";i:410;s:12:"startFilePos";i:8221;s:11:"endTokenPos";i:416;s:10:"endFilePos";i:8243;}}s:7:"default";a:2:{s:4:"code";s:2:"''";s:10:"attributes";a:6:{s:9:"startLine";i:174;s:7:"endLine";i:174;s:13:"startTokenPos";i:422;s:12:"startFilePos";i:8255;s:11:"endTokenPos";i:422;s:10:"endFilePos";i:8256;}}}}}s:9:"startLine";i:174;s:7:"endLine";i:175;s:11:"startColumn";i:13;s:9:"endColumn";i:30;s:14:"parameterIndex";i:0;s:10:"isOptional";b:0;}s:3:"var";a:14:{s:4:"name";s:3:"var";s:7:"default";N;s:4:"type";a:2:{s:5:"class";s:55:"PHPStan\BetterReflection\Reflection\ReflectionNamedType";s:4:"data";a:2:{s:4:"name";s:5:"mixed";s:12:"isIdentifier";b:1;}}s:10:"isVariadic";b:0;s:5:"byRef";b:1;s:10:"isPromoted";b:0;s:10:"docComment";N;s:10:"attributes";a:1:{i:0;a:3:{s:4:"name";s:50:"JetBrains\PhpStorm\Internal\LanguageLevelTypeAware";s:10:"isRepeated";b:0;s:9:"arguments";a:2:{i:0;a:2:{s:4:"code";s:18:"['8.0' => 'mixed']";s:10:"attributes";a:6:{s:9:"startLine";i:176;s:7:"endLine";i:176;s:13:"startTokenPos";i:436;s:12:"startFilePos";i:8358;s:11:"endTokenPos";i:442;s:10:"endFilePos";i:8375;}}s:7:"default";a:2:{s:4:"code";s:2:"''";s:10:"attributes";a:6:{s:9:"startLine";i:176;s:7:"endLine";i:176;s:13:"startTokenPos";i:448;s:12:"startFilePos";i:8387;s:11:"endTokenPos";i:448;s:10:"endFilePos";i:8388;}}}}}s:9:"startLine";i:176;s:7:"endLine";i:177;s:11:"startColumn";i:13;s:9:"endColumn";i:23;s:14:"parameterIndex";i:1;s:10:"isOptional";b:0;}s:4:"type";a:14:{s:4:"name";s:4:"type";s:7:"default";a:2:{s:4:"code";s:15:"\PDO::PARAM_STR";s:10:"attributes";a:6:{s:9:"startLine";i:179;s:7:"endLine";i:179;s:13:"startTokenPos";i:483;s:12:"startFilePos";i:8539;s:11:"endTokenPos";i:485;s:10:"endFilePos";i:8552;}}s:4:"type";a:2:{s:5:"class";s:55:"PHPStan\BetterReflection\Reflection\ReflectionNamedType";s:4:"data";a:2:{s:4:"name";s:3:"int";s:12:"isIdentifier";b:1;}}s:10:"isVariadic";b:0;s:5:"byRef";b:0;s:10:"isPromoted";b:0;s:10:"docComment";N;s:10:"attributes";a:1:{i:0;a:3:{s:4:"name";s:50:"JetBrains\PhpStorm\Internal\LanguageLevelTypeAware";s:10:"isRepeated";b:0;s:9:"arguments";a:2:{i:0;a:2:{s:4:"code";s:16:"['8.0' => 'int']";s:10:"attributes";a:6:{s:9:"startLine";i:178;s:7:"endLine";i:178;s:13:"startTokenPos";i:461;s:12:"startFilePos";i:8483;s:11:"endTokenPos";i:467;s:10:"endFilePos";i:8498;}}s:7:"default";a:2:{s:4:"code";s:2:"''";s:10:"attributes";a:6:{s:9:"startLine";i:178;s:7:"endLine";i:178;s:13:"startTokenPos";i:473;s:12:"startFilePos";i:8510;s:11:"endTokenPos";i:473;s:10:"endFilePos";i:8511;}}}}}s:9:"startLine";i:178;s:7:"endLine";i:179;s:11:"startColumn";i:13;s:9:"endColumn";i:38;s:14:"parameterIndex";i:2;s:10:"isOptional";b:1;}s:9:"maxLength";a:14:{s:4:"name";s:9:"maxLength";s:7:"default";a:2:{s:4:"code";s:1:"0";s:10:"attributes";a:6:{s:9:"startLine";i:181;s:7:"endLine";i:181;s:13:"startTokenPos";i:513;s:12:"startFilePos";i:8682;s:11:"endTokenPos";i:513;s:10:"endFilePos";i:8682;}}s:4:"type";a:2:{s:5:"class";s:55:"PHPStan\BetterReflection\Reflection\ReflectionNamedType";s:4:"data";a:2:{s:4:"name";s:3:"int";s:12:"isIdentifier";b:1;}}s:10:"isVariadic";b:0;s:5:"byRef";b:0;s:10:"isPromoted";b:0;s:10:"docComment";N;s:10:"attributes";a:1:{i:0;a:3:{s:4:"name";s:50:"JetBrains\PhpStorm\Internal\LanguageLevelTypeAware";s:10:"isRepeated";b:0;s:9:"arguments";a:2:{i:0;a:2:{s:4:"code";s:16:"['8.0' => 'int']";s:10:"attributes";a:6:{s:9:"startLine";i:180;s:7:"endLine";i:180;s:13:"startTokenPos";i:491;s:12:"startFilePos";i:8621;s:11:"endTokenPos";i:497;s:10:"endFilePos";i:8636;}}s:7:"default";a:2:{s:4:"code";s:2:"''";s:10:"attributes";a:6:{s:9:"startLine";i:180;s:7:"endLine";i:180;s:13:"startTokenPos";i:503;s:12:"startFilePos";i:8648;s:11:"endTokenPos";i:503;s:10:"endFilePos";i:8649;}}}}}s:9:"startLine";i:180;s:7:"endLine";i:181;s:11:"startColumn";i:13;s:9:"endColumn";i:30;s:14:"parameterIndex";i:3;s:10:"isOptional";b:1;}s:13:"driverOptions";a:14:{s:4:"name";s:13:"driverOptions";s:7:"default";a:2:{s:4:"code";s:5:"\null";s:10:"attributes";a:6:{s:9:"startLine";i:183;s:7:"endLine";i:183;s:13:"startTokenPos";i:541;s:12:"startFilePos";i:8820;s:11:"endTokenPos";i:541;s:10:"endFilePos";i:8823;}}s:4:"type";a:2:{s:5:"class";s:55:"PHPStan\BetterReflection\Reflection\ReflectionNamedType";s:4:"data";a:2:{s:4:"name";s:5:"mixed";s:12:"isIdentifier";b:1;}}s:10:"isVariadic";b:0;s:5:"byRef";b:0;s:10:"isPromoted";b:0;s:10:"docComment";N;s:10:"attributes";a:1:{i:0;a:3:{s:4:"name";s:50:"JetBrains\PhpStorm\Internal\LanguageLevelTypeAware";s:10:"isRepeated";b:0;s:9:"arguments";a:2:{i:0;a:2:{s:4:"code";s:18:"['8.0' => 'mixed']";s:10:"attributes";a:6:{s:9:"startLine";i:182;s:7:"endLine";i:182;s:13:"startTokenPos";i:519;s:12:"startFilePos";i:8751;s:11:"endTokenPos";i:525;s:10:"endFilePos";i:8768;}}s:7:"default";a:2:{s:4:"code";s:2:"''";s:10:"attributes";a:6:{s:9:"startLine";i:182;s:7:"endLine";i:182;s:13:"startTokenPos";i:531;s:12:"startFilePos";i:8780;s:11:"endTokenPos";i:531;s:10:"endFilePos";i:8781;}}}}}s:9:"startLine";i:182;s:7:"endLine";i:183;s:11:"startColumn";i:13;s:9:"endColumn";i:39;s:14:"parameterIndex";i:4;s:10:"isOptional";b:1;}}s:16:"returnsReference";b:0;s:10:"returnType";a:2:{s:5:"class";s:55:"PHPStan\BetterReflection\Reflection\ReflectionNamedType";s:4:"data";a:2:{s:4:"name";s:4:"bool";s:12:"isIdentifier";b:1;}}s:10:"attributes";a:1:{i:0;a:3:{s:4:"name";s:41:"JetBrains\PhpStorm\Internal\TentativeType";s:10:"isRepeated";b:0;s:9:"arguments";a:0:{}}}s:10:"docComment";s:961:"/**
+ * (PHP 5 &gt;= 5.1.0, PHP 7, PECL pdo &gt;= 0.1.0)<br/>
+ * Bind a column to a PHP variable
+ * @link https://php.net/manual/en/pdostatement.bindcolumn.php
+ * @param mixed $column <p>
+ * Number of the column (1-indexed) or name of the column in the result set.
+ * If using the column name, be aware that the name should match the
+ * case of the column, as returned by the driver.
+ * </p>
+ * @param mixed &$var <p>
+ * Name of the PHP variable to which the column will be bound.
+ * </p>
+ * @param int $type [optional] <p>
+ * Data type of the parameter, specified by the PDO::PARAM_* constants.
+ * </p>
+ * @param int $maxLength [optional] <p>
+ * A hint for pre-allocation.
+ * </p>
+ * @param mixed $driverOptions [optional] <p>
+ * Optional parameter(s) for the driver.
+ * </p>
+ * @return bool <b>TRUE</b> on success or <b>FALSE</b> on failure.
+ * @throws PDOException On error if PDO::ERRMODE_EXCEPTION option is true.
+ * @betterReflectionTentativeReturnType
+ */";s:9:"startLine";i:172;s:7:"endLine";i:186;s:11:"startColumn";i:9;s:9:"endColumn";i:9;s:10:"couldThrow";b:0;s:9:"isClosure";b:0;s:11:"isGenerator";b:0;s:10:"isVariadic";b:0;s:9:"modifiers";i:1;s:9:"namespace";N;s:18:"declaringClassName";s:12:"PDOStatement";s:21:"implementingClassName";s:12:"PDOStatement";s:16:"currentClassName";s:12:"PDOStatement";s:9:"aliasName";N;}s:9:"bindValue";a:20:{s:4:"name";s:9:"bindValue";s:10:"parameters";a:3:{s:5:"param";a:14:{s:4:"name";s:5:"param";s:7:"default";N;s:4:"type";a:2:{s:5:"class";s:55:"PHPStan\BetterReflection\Reflection\ReflectionUnionType";s:4:"data";a:1:{s:5:"types";a:2:{i:0;a:2:{s:5:"class";s:55:"PHPStan\BetterReflection\Reflection\ReflectionNamedType";s:4:"data";a:2:{s:4:"name";s:3:"int";s:12:"isIdentifier";b:1;}}i:1;a:2:{s:5:"class";s:55:"PHPStan\BetterReflection\Reflection\ReflectionNamedType";s:4:"data";a:2:{s:4:"name";s:6:"string";s:12:"isIdentifier";b:1;}}}}}s:10:"isVariadic";b:0;s:5:"byRef";b:0;s:10:"isPromoted";b:0;s:10:"docComment";N;s:10:"attributes";a:1:{i:0;a:3:{s:4:"name";s:50:"JetBrains\PhpStorm\Internal\LanguageLevelTypeAware";s:10:"isRepeated";b:0;s:9:"arguments";a:2:{i:0;a:2:{s:4:"code";s:23:"['8.0' => 'int|string']";s:10:"attributes";a:6:{s:9:"startLine";i:211;s:7:"endLine";i:211;s:13:"startTokenPos";i:568;s:12:"startFilePos";i:10012;s:11:"endTokenPos";i:574;s:10:"endFilePos";i:10034;}}s:7:"default";a:2:{s:4:"code";s:2:"''";s:10:"attributes";a:6:{s:9:"startLine";i:211;s:7:"endLine";i:211;s:13:"startTokenPos";i:580;s:12:"startFilePos";i:10046;s:11:"endTokenPos";i:580;s:10:"endFilePos";i:10047;}}}}}s:9:"startLine";i:211;s:7:"endLine";i:212;s:11:"startColumn";i:13;s:9:"endColumn";i:29;s:14:"parameterIndex";i:0;s:10:"isOptional";b:0;}s:5:"value";a:14:{s:4:"name";s:5:"value";s:7:"default";N;s:4:"type";a:2:{s:5:"class";s:55:"PHPStan\BetterReflection\Reflection\ReflectionNamedType";s:4:"data";a:2:{s:4:"name";s:5:"mixed";s:12:"isIdentifier";b:1;}}s:10:"isVariadic";b:0;s:5:"byRef";b:0;s:10:"isPromoted";b:0;s:10:"docComment";N;s:10:"attributes";a:1:{i:0;a:3:{s:4:"name";s:50:"JetBrains\PhpStorm\Internal\LanguageLevelTypeAware";s:10:"isRepeated";b:0;s:9:"arguments";a:2:{i:0;a:2:{s:4:"code";s:18:"['8.0' => 'mixed']";s:10:"attributes";a:6:{s:9:"startLine";i:213;s:7:"endLine";i:213;s:13:"startTokenPos";i:594;s:12:"startFilePos";i:10148;s:11:"endTokenPos";i:600;s:10:"endFilePos";i:10165;}}s:7:"default";a:2:{s:4:"code";s:2:"''";s:10:"attributes";a:6:{s:9:"startLine";i:213;s:7:"endLine";i:213;s:13:"startTokenPos";i:606;s:12:"startFilePos";i:10177;s:11:"endTokenPos";i:606;s:10:"endFilePos";i:10178;}}}}}s:9:"startLine";i:213;s:7:"endLine";i:214;s:11:"startColumn";i:13;s:9:"endColumn";i:24;s:14:"parameterIndex";i:1;s:10:"isOptional";b:0;}s:4:"type";a:14:{s:4:"name";s:4:"type";s:7:"default";a:2:{s:4:"code";s:15:"\PDO::PARAM_STR";s:10:"attributes";a:6:{s:9:"startLine";i:216;s:7:"endLine";i:216;s:13:"startTokenPos";i:640;s:12:"startFilePos";i:10330;s:11:"endTokenPos";i:642;s:10:"endFilePos";i:10343;}}s:4:"type";a:2:{s:5:"class";s:55:"PHPStan\BetterReflection\Reflection\ReflectionNamedType";s:4:"data";a:2:{s:4:"name";s:3:"int";s:12:"isIdentifier";b:1;}}s:10:"isVariadic";b:0;s:5:"byRef";b:0;s:10:"isPromoted";b:0;s:10:"docComment";N;s:10:"attributes";a:1:{i:0;a:3:{s:4:"name";s:50:"JetBrains\PhpStorm\Internal\LanguageLevelTypeAware";s:10:"isRepeated";b:0;s:9:"arguments";a:2:{i:0;a:2:{s:4:"code";s:16:"['8.0' => 'int']";s:10:"attributes";a:6:{s:9:"startLine";i:215;s:7:"endLine";i:215;s:13:"startTokenPos";i:618;s:12:"startFilePos";i:10274;s:11:"endTokenPos";i:624;s:10:"endFilePos";i:10289;}}s:7:"default";a:2:{s:4:"code";s:2:"''";s:10:"attributes";a:6:{s:9:"startLine";i:215;s:7:"endLine";i:215;s:13:"startTokenPos";i:630;s:12:"startFilePos";i:10301;s:11:"endTokenPos";i:630;s:10:"endFilePos";i:10302;}}}}}s:9:"startLine";i:215;s:7:"endLine";i:216;s:11:"startColumn";i:13;s:9:"endColumn";i:38;s:14:"parameterIndex";i:2;s:10:"isOptional";b:1;}}s:16:"returnsReference";b:0;s:10:"returnType";a:2:{s:5:"class";s:55:"PHPStan\BetterReflection\Reflection\ReflectionNamedType";s:4:"data";a:2:{s:4:"name";s:4:"bool";s:12:"isIdentifier";b:1;}}s:10:"attributes";a:1:{i:0;a:3:{s:4:"name";s:41:"JetBrains\PhpStorm\Internal\TentativeType";s:10:"isRepeated";b:0;s:9:"arguments";a:0:{}}}s:10:"docComment";s:819:"/**
+ * (PHP 5 &gt;= 5.1.0, PHP 7, PECL pdo &gt;= 1.0.0)<br/>
+ * Binds a value to a parameter
+ * @link https://php.net/manual/en/pdostatement.bindvalue.php
+ * @param mixed $param <p>
+ * Parameter identifier. For a prepared statement using named
+ * placeholders, this will be a parameter name of the form
+ * :name. For a prepared statement using
+ * question mark placeholders, this will be the 1-indexed position of
+ * the parameter.
+ * </p>
+ * @param mixed $value <p>
+ * The value to bind to the parameter.
+ * </p>
+ * @param int $type [optional] <p>
+ * Explicit data type for the parameter using the PDO::PARAM_*
+ * constants.
+ * </p>
+ * @return bool <b>TRUE</b> on success or <b>FALSE</b> on failure.
+ * @throws PDOException On error if PDO::ERRMODE_EXCEPTION option is true.
+ * @betterReflectionTentativeReturnType
+ */";s:9:"startLine";i:209;s:7:"endLine";i:219;s:11:"startColumn";i:9;s:9:"endColumn";i:9;s:10:"couldThrow";b:0;s:9:"isClosure";b:0;s:11:"isGenerator";b:0;s:10:"isVariadic";b:0;s:9:"modifiers";i:1;s:9:"namespace";N;s:18:"declaringClassName";s:12:"PDOStatement";s:21:"implementingClassName";s:12:"PDOStatement";s:16:"currentClassName";s:12:"PDOStatement";s:9:"aliasName";N;}s:8:"rowCount";a:20:{s:4:"name";s:8:"rowCount";s:10:"parameters";a:0:{}s:16:"returnsReference";b:0;s:10:"returnType";a:2:{s:5:"class";s:55:"PHPStan\BetterReflection\Reflection\ReflectionNamedType";s:4:"data";a:2:{s:4:"name";s:3:"int";s:12:"isIdentifier";b:1;}}s:10:"attributes";a:1:{i:0;a:3:{s:4:"name";s:41:"JetBrains\PhpStorm\Internal\TentativeType";s:10:"isRepeated";b:0;s:9:"arguments";a:0:{}}}s:10:"docComment";s:340:"/**
+ * (PHP 5 &gt;= 5.1.0, PHP 7, PECL pdo &gt;= 0.1.0)<br/>
+ * Returns the number of rows affected by the last SQL statement
+ * @link https://php.net/manual/en/pdostatement.rowcount.php
+ * @return int the number of rows.
+ * @throws PDOException On error if PDO::ERRMODE_EXCEPTION option is true.
+ * @betterReflectionTentativeReturnType
+ */";s:9:"startLine";i:228;s:7:"endLine";i:231;s:11:"startColumn";i:9;s:9:"endColumn";i:9;s:10:"couldThrow";b:0;s:9:"isClosure";b:0;s:11:"isGenerator";b:0;s:10:"isVariadic";b:0;s:9:"modifiers";i:1;s:9:"namespace";N;s:18:"declaringClassName";s:12:"PDOStatement";s:21:"implementingClassName";s:12:"PDOStatement";s:16:"currentClassName";s:12:"PDOStatement";s:9:"aliasName";N;}s:11:"fetchColumn";a:20:{s:4:"name";s:11:"fetchColumn";s:10:"parameters";a:1:{s:6:"column";a:14:{s:4:"name";s:6:"column";s:7:"default";a:2:{s:4:"code";s:1:"0";s:10:"attributes";a:6:{s:9:"startLine";i:253;s:7:"endLine";i:253;s:13:"startTokenPos";i:712;s:12:"startFilePos";i:12024;s:11:"endTokenPos";i:712;s:10:"endFilePos";i:12024;}}s:4:"type";a:2:{s:5:"class";s:55:"PHPStan\BetterReflection\Reflection\ReflectionNamedType";s:4:"data";a:2:{s:4:"name";s:3:"int";s:12:"isIdentifier";b:1;}}s:10:"isVariadic";b:0;s:5:"byRef";b:0;s:10:"isPromoted";b:0;s:10:"docComment";N;s:10:"attributes";a:1:{i:0;a:3:{s:4:"name";s:50:"JetBrains\PhpStorm\Internal\LanguageLevelTypeAware";s:10:"isRepeated";b:0;s:9:"arguments";a:2:{i:0;a:2:{s:4:"code";s:16:"['8.0' => 'int']";s:10:"attributes";a:6:{s:9:"startLine";i:252;s:7:"endLine";i:252;s:13:"startTokenPos";i:690;s:12:"startFilePos";i:11966;s:11:"endTokenPos";i:696;s:10:"endFilePos";i:11981;}}s:7:"default";a:2:{s:4:"code";s:2:"''";s:10:"attributes";a:6:{s:9:"startLine";i:252;s:7:"endLine";i:252;s:13:"startTokenPos";i:702;s:12:"startFilePos";i:11993;s:11:"endTokenPos";i:702;s:10:"endFilePos";i:11994;}}}}}s:9:"startLine";i:252;s:7:"endLine";i:253;s:11:"startColumn";i:13;s:9:"endColumn";i:27;s:14:"parameterIndex";i:0;s:10:"isOptional";b:1;}}s:16:"returnsReference";b:0;s:10:"returnType";a:2:{s:5:"class";s:55:"PHPStan\BetterReflection\Reflection\ReflectionNamedType";s:4:"data";a:2:{s:4:"name";s:5:"mixed";s:12:"isIdentifier";b:1;}}s:10:"attributes";a:1:{i:0;a:3:{s:4:"name";s:41:"JetBrains\PhpStorm\Internal\TentativeType";s:10:"isRepeated";b:0;s:9:"arguments";a:0:{}}}s:10:"docComment";s:764:"/**
+ * (PHP 5 &gt;= 5.1.0, PHP 7, PECL pdo &gt;= 0.9.0)<br/>
+ * Returns a single column from the next row of a result set
+ * @link https://php.net/manual/en/pdostatement.fetchcolumn.php
+ * @param int $column [optional] <p>
+ * 0-indexed number of the column you wish to retrieve from the row. If
+ * no value is supplied, <b>PDOStatement::fetchColumn</b>
+ * fetches the first column.
+ * </p>
+ * @return mixed Returns a single column from the next row of a result
+ * set or FALSE if there are no more rows.
+ * </p>
+ * <p>
+ * There is no way to return another column from the same row if you
+ * use <b>PDOStatement::fetchColumn</b> to retrieve data.
+ * @throws PDOException On error if PDO::ERRMODE_EXCEPTION option is true.
+ * @betterReflectionTentativeReturnType
+ */";s:9:"startLine";i:250;s:7:"endLine";i:256;s:11:"startColumn";i:9;s:9:"endColumn";i:9;s:10:"couldThrow";b:0;s:9:"isClosure";b:0;s:11:"isGenerator";b:0;s:10:"isVariadic";b:0;s:9:"modifiers";i:1;s:9:"namespace";N;s:18:"declaringClassName";s:12:"PDOStatement";s:21:"implementingClassName";s:12:"PDOStatement";s:16:"currentClassName";s:12:"PDOStatement";s:9:"aliasName";N;}s:8:"fetchAll";a:20:{s:4:"name";s:8:"fetchAll";s:10:"parameters";a:2:{s:4:"mode";a:14:{s:4:"name";s:4:"mode";s:7:"default";a:2:{s:4:"code";s:19:"\PDO::FETCH_DEFAULT";s:10:"attributes";a:6:{s:9:"startLine";i:313;s:7:"endLine";i:313;s:13:"startTokenPos";i:761;s:12:"startFilePos";i:15098;s:11:"endTokenPos";i:763;s:10:"endFilePos";i:15115;}}s:4:"type";a:2:{s:5:"class";s:55:"PHPStan\BetterReflection\Reflection\ReflectionNamedType";s:4:"data";a:2:{s:4:"name";s:3:"int";s:12:"isIdentifier";b:1;}}s:10:"isVariadic";b:0;s:5:"byRef";b:0;s:10:"isPromoted";b:0;s:10:"docComment";N;s:10:"attributes";a:1:{i:0;a:3:{s:4:"name";s:50:"JetBrains\PhpStorm\Internal\LanguageLevelTypeAware";s:10:"isRepeated";b:0;s:9:"arguments";a:2:{i:0;a:2:{s:4:"code";s:16:"['8.0' => 'int']";s:10:"attributes";a:6:{s:9:"startLine";i:312;s:7:"endLine";i:312;s:13:"startTokenPos";i:739;s:12:"startFilePos";i:15042;s:11:"endTokenPos";i:745;s:10:"endFilePos";i:15057;}}s:7:"default";a:2:{s:4:"code";s:2:"''";s:10:"attributes";a:6:{s:9:"startLine";i:312;s:7:"endLine";i:312;s:13:"startTokenPos";i:751;s:12:"startFilePos";i:15069;s:11:"endTokenPos";i:751;s:10:"endFilePos";i:15070;}}}}}s:9:"startLine";i:312;s:7:"endLine";i:313;s:11:"startColumn";i:13;s:9:"endColumn";i:42;s:14:"parameterIndex";i:0;s:10:"isOptional";b:1;}s:4:"args";a:14:{s:4:"name";s:4:"args";s:7:"default";N;s:4:"type";a:2:{s:5:"class";s:55:"PHPStan\BetterReflection\Reflection\ReflectionNamedType";s:4:"data";a:2:{s:4:"name";s:5:"mixed";s:12:"isIdentifier";b:1;}}s:10:"isVariadic";b:1;s:5:"byRef";b:0;s:10:"isPromoted";b:0;s:10:"docComment";N;s:10:"attributes";a:1:{i:0;a:3:{s:4:"name";s:50:"JetBrains\PhpStorm\Internal\LanguageLevelTypeAware";s:10:"isRepeated";b:0;s:9:"arguments";a:2:{i:0;a:2:{s:4:"code";s:18:"['8.0' => 'mixed']";s:10:"attributes";a:6:{s:9:"startLine";i:314;s:7:"endLine";i:314;s:13:"startTokenPos";i:769;s:12:"startFilePos";i:15184;s:11:"endTokenPos";i:775;s:10:"endFilePos";i:15201;}}s:7:"default";a:2:{s:4:"code";s:2:"''";s:10:"attributes";a:6:{s:9:"startLine";i:314;s:7:"endLine";i:314;s:13:"startTokenPos";i:781;s:12:"startFilePos";i:15213;s:11:"endTokenPos";i:781;s:10:"endFilePos";i:15214;}}}}}s:9:"startLine";i:314;s:7:"endLine";i:315;s:11:"startColumn";i:13;s:9:"endColumn";i:26;s:14:"parameterIndex";i:1;s:10:"isOptional";b:1;}}s:16:"returnsReference";b:0;s:10:"returnType";a:2:{s:5:"class";s:55:"PHPStan\BetterReflection\Reflection\ReflectionNamedType";s:4:"data";a:2:{s:4:"name";s:5:"array";s:12:"isIdentifier";b:1;}}s:10:"attributes";a:1:{i:0;a:3:{s:4:"name";s:41:"JetBrains\PhpStorm\Internal\TentativeType";s:10:"isRepeated";b:0;s:9:"arguments";a:0:{}}}s:10:"docComment";s:2400:"/**
+ * (PHP 5 &gt;= 5.1.0, PHP 7, PECL pdo &gt;= 0.1.0)<br/>
+ * Returns an array containing all of the remaining rows in the result set.
+ * The array represents each row as either an array of column values or an
+ * object with properties corresponding to each column name.
+ * An empty array is returned if there are zero results to fetch.
+ * <p>
+ * Using this method to fetch large result sets will result in a heavy
+ * demand on system and possibly network resources. Rather than retrieving
+ * all of the data and manipulating it in PHP, consider using the database
+ * server to manipulate the result sets. For example, use the WHERE and
+ * ORDER BY clauses in SQL to restrict results before retrieving and
+ * processing them with PHP.
+ * </p>
+ * @link https://php.net/manual/en/pdostatement.fetchall.php
+ * @param int $mode [optional] <p>
+ * Controls the contents of the returned array as documented in
+ * <b>PDOStatement::fetch</b>.
+ * Defaults to value of <b>PDO::ATTR_DEFAULT_FETCH_MODE</b>
+ * (which defaults to <b>PDO::FETCH_BOTH</b>)
+ * </p>
+ * <p>
+ * To return an array consisting of all values of a single column from
+ * the result set, specify <b>PDO::FETCH_COLUMN</b>. You
+ * can specify which column you want with the
+ * <i>column-index</i> parameter.
+ * </p>
+ * <p>
+ * To fetch only the unique values of a single column from the result set,
+ * bitwise-OR <b>PDO::FETCH_COLUMN</b> with
+ * <b>PDO::FETCH_UNIQUE</b>.
+ * </p>
+ * <p>
+ * To return an associative array grouped by the values of a specified
+ * column, bitwise-OR <b>PDO::FETCH_COLUMN</b> with
+ * <b>PDO::FETCH_GROUP</b>.
+ * </p>
+ * @param mixed ...$args <p>
+ * Arguments of custom class constructor when the <i>fetch_style</i>
+ * parameter is <b>PDO::FETCH_CLASS</b>.
+ * </p>
+ * @return ($mode is PDO::FETCH_COLUMN ? list<mixed>
+ *     : ($mode is PDO::FETCH_KEY_PAIR ? array<array-key, mixed>
+ *     : ($mode is PDO::FETCH_ASSOC ? list<array<string, mixed>>
+ *     : ($mode is PDO::FETCH_NUM ? list<list<mixed>>
+ *     : ($mode is PDO::FETCH_BOTH ? list<array<string|int, mixed>>
+ *     : ($mode is PDO::FETCH_OBJ ? list<\stdClass>
+ *     : ($mode is PDO::FETCH_NAMED ? list<array<string, mixed>>
+ *     : list<mixed>)))))))
+ * @throws PDOException <b>PDOStatement::fetchAll</b> throws on failure if the
+ * attribute <b>PDO::ATTR_ERRMODE</b> is set to <b>PDO::ERRMODE_EXCEPTION</b>.
+ * @betterReflectionTentativeReturnType
+ */";s:9:"startLine";i:310;s:7:"endLine";i:318;s:11:"startColumn";i:9;s:9:"endColumn";i:9;s:10:"couldThrow";b:0;s:9:"isClosure";b:0;s:11:"isGenerator";b:0;s:10:"isVariadic";b:1;s:9:"modifiers";i:1;s:9:"namespace";N;s:18:"declaringClassName";s:12:"PDOStatement";s:21:"implementingClassName";s:12:"PDOStatement";s:16:"currentClassName";s:12:"PDOStatement";s:9:"aliasName";N;}s:11:"fetchObject";a:20:{s:4:"name";s:11:"fetchObject";s:10:"parameters";a:2:{s:5:"class";a:14:{s:4:"name";s:5:"class";s:7:"default";a:2:{s:4:"code";s:10:""stdClass"";s:10:"attributes";a:6:{s:9:"startLine";i:344;s:7:"endLine";i:344;s:13:"startTokenPos";i:839;s:12:"startFilePos";i:16567;s:11:"endTokenPos";i:839;s:10:"endFilePos";i:16576;}}s:4:"type";a:2:{s:5:"class";s:55:"PHPStan\BetterReflection\Reflection\ReflectionUnionType";s:4:"data";a:1:{s:5:"types";a:2:{i:0;a:2:{s:5:"class";s:55:"PHPStan\BetterReflection\Reflection\ReflectionNamedType";s:4:"data";a:2:{s:4:"name";s:6:"string";s:12:"isIdentifier";b:1;}}i:1;a:2:{s:5:"class";s:55:"PHPStan\BetterReflection\Reflection\ReflectionNamedType";s:4:"data";a:2:{s:4:"name";s:4:"null";s:12:"isIdentifier";b:1;}}}}}s:10:"isVariadic";b:0;s:5:"byRef";b:0;s:10:"isPromoted";b:0;s:10:"docComment";N;s:10:"attributes";a:1:{i:0;a:3:{s:4:"name";s:50:"JetBrains\PhpStorm\Internal\LanguageLevelTypeAware";s:10:"isRepeated";b:0;s:9:"arguments";a:2:{i:0;a:2:{s:4:"code";s:24:"['8.0' => 'string|null']";s:10:"attributes";a:6:{s:9:"startLine";i:343;s:7:"endLine";i:343;s:13:"startTokenPos";i:815;s:12:"startFilePos";i:16494;s:11:"endTokenPos";i:821;s:10:"endFilePos";i:16517;}}s:7:"default";a:2:{s:4:"code";s:2:"''";s:10:"attributes";a:6:{s:9:"startLine";i:343;s:7:"endLine";i:343;s:13:"startTokenPos";i:827;s:12:"startFilePos";i:16529;s:11:"endTokenPos";i:827;s:10:"endFilePos";i:16530;}}}}}s:9:"startLine";i:343;s:7:"endLine";i:344;s:11:"startColumn";i:13;s:9:"endColumn";i:43;s:14:"parameterIndex";i:0;s:10:"isOptional";b:1;}s:15:"constructorArgs";a:14:{s:4:"name";s:15:"constructorArgs";s:7:"default";a:2:{s:4:"code";s:2:"[]";s:10:"attributes";a:6:{s:9:"startLine";i:346;s:7:"endLine";i:346;s:13:"startTokenPos";i:867;s:12:"startFilePos";i:16716;s:11:"endTokenPos";i:868;s:10:"endFilePos";i:16717;}}s:4:"type";a:2:{s:5:"class";s:55:"PHPStan\BetterReflection\Reflection\ReflectionNamedType";s:4:"data";a:2:{s:4:"name";s:5:"array";s:12:"isIdentifier";b:1;}}s:10:"isVariadic";b:0;s:5:"byRef";b:0;s:10:"isPromoted";b:0;s:10:"docComment";N;s:10:"attributes";a:1:{i:0;a:3:{s:4:"name";s:50:"JetBrains\PhpStorm\Internal\LanguageLevelTypeAware";s:10:"isRepeated";b:0;s:9:"arguments";a:2:{i:0;a:2:{s:4:"code";s:18:"['8.0' => 'array']";s:10:"attributes";a:6:{s:9:"startLine";i:345;s:7:"endLine";i:345;s:13:"startTokenPos";i:845;s:12:"startFilePos";i:16645;s:11:"endTokenPos";i:851;s:10:"endFilePos";i:16662;}}s:7:"default";a:2:{s:4:"code";s:2:"''";s:10:"attributes";a:6:{s:9:"startLine";i:345;s:7:"endLine";i:345;s:13:"startTokenPos";i:857;s:12:"startFilePos";i:16674;s:11:"endTokenPos";i:857;s:10:"endFilePos";i:16675;}}}}}s:9:"startLine";i:345;s:7:"endLine";i:346;s:11:"startColumn";i:13;s:9:"endColumn";i:39;s:14:"parameterIndex";i:1;s:10:"isOptional";b:1;}}s:16:"returnsReference";b:0;s:10:"returnType";a:2:{s:5:"class";s:55:"PHPStan\BetterReflection\Reflection\ReflectionUnionType";s:4:"data";a:1:{s:5:"types";a:2:{i:0;a:2:{s:5:"class";s:55:"PHPStan\BetterReflection\Reflection\ReflectionNamedType";s:4:"data";a:2:{s:4:"name";s:6:"object";s:12:"isIdentifier";b:1;}}i:1;a:2:{s:5:"class";s:55:"PHPStan\BetterReflection\Reflection\ReflectionNamedType";s:4:"data";a:2:{s:4:"name";s:5:"false";s:12:"isIdentifier";b:1;}}}}}s:10:"attributes";a:1:{i:0;a:3:{s:4:"name";s:41:"JetBrains\PhpStorm\Internal\TentativeType";s:10:"isRepeated";b:0;s:9:"arguments";a:0:{}}}s:10:"docComment";s:878:"/**
+ * Fetches the next row and returns it as an object
+ *
+ * Fetches the next row and returns it as an object. This function is an alternative to
+ * PDOStatement::fetch with PDO::FETCH_CLASS or PDO::FETCH_OBJ style.
+ *
+ * @template T
+ *
+ * (PHP 5 &gt;= 5.1.0, PHP 7, PECL pdo &gt;= 0.2.4)<br/>
+ * Fetches the next row and returns it as an object.
+ * @link https://php.net/manual/en/pdostatement.fetchobject.php
+ * @param class-string<T> $class [optional] <p>
+ * Name of the created class.
+ * </p>
+ * @param array $constructorArgs [optional] <p>
+ * Elements of this array are passed to the constructor.
+ * </p>
+ * @return T|stdClass|false an instance of the required class with property names that
+ * correspond to the column names or <b>FALSE</b> on failure.
+ * @throws PDOException On error if PDO::ERRMODE_EXCEPTION option is true.
+ * @betterReflectionTentativeReturnType
+ */";s:9:"startLine";i:341;s:7:"endLine";i:349;s:11:"startColumn";i:9;s:9:"endColumn";i:9;s:10:"couldThrow";b:0;s:9:"isClosure";b:0;s:11:"isGenerator";b:0;s:10:"isVariadic";b:0;s:9:"modifiers";i:1;s:9:"namespace";N;s:18:"declaringClassName";s:12:"PDOStatement";s:21:"implementingClassName";s:12:"PDOStatement";s:16:"currentClassName";s:12:"PDOStatement";s:9:"aliasName";N;}s:9:"errorCode";a:20:{s:4:"name";s:9:"errorCode";s:10:"parameters";a:0:{}s:16:"returnsReference";b:0;s:10:"returnType";a:2:{s:5:"class";s:55:"PHPStan\BetterReflection\Reflection\ReflectionUnionType";s:4:"data";a:1:{s:5:"types";a:2:{i:0;a:2:{s:5:"class";s:55:"PHPStan\BetterReflection\Reflection\ReflectionNamedType";s:4:"data";a:2:{s:4:"name";s:6:"string";s:12:"isIdentifier";b:1;}}i:1;a:2:{s:5:"class";s:55:"PHPStan\BetterReflection\Reflection\ReflectionNamedType";s:4:"data";a:2:{s:4:"name";s:4:"null";s:12:"isIdentifier";b:1;}}}}}s:10:"attributes";a:1:{i:0;a:3:{s:4:"name";s:41:"JetBrains\PhpStorm\Internal\TentativeType";s:10:"isRepeated";b:0;s:9:"arguments";a:0:{}}}s:10:"docComment";s:429:"/**
+ * (PHP 5 &gt;= 5.1.0, PHP 7, PECL pdo &gt;= 0.1.0)<br/>
+ * Fetch the SQLSTATE associated with the last operation on the statement handle
+ * @link https://php.net/manual/en/pdostatement.errorcode.php
+ * @return string Identical to <b>PDO::errorCode</b>, except that
+ * <b>PDOStatement::errorCode</b> only retrieves error codes
+ * for operations performed with PDOStatement objects.
+ * @betterReflectionTentativeReturnType
+ */";s:9:"startLine";i:359;s:7:"endLine";i:362;s:11:"startColumn";i:9;s:9:"endColumn";i:9;s:10:"couldThrow";b:0;s:9:"isClosure";b:0;s:11:"isGenerator";b:0;s:10:"isVariadic";b:0;s:9:"modifiers";i:1;s:9:"namespace";N;s:18:"declaringClassName";s:12:"PDOStatement";s:21:"implementingClassName";s:12:"PDOStatement";s:16:"currentClassName";s:12:"PDOStatement";s:9:"aliasName";N;}s:9:"errorInfo";a:20:{s:4:"name";s:9:"errorInfo";s:10:"parameters";a:0:{}s:16:"returnsReference";b:0;s:10:"returnType";a:2:{s:5:"class";s:55:"PHPStan\BetterReflection\Reflection\ReflectionNamedType";s:4:"data";a:2:{s:4:"name";s:5:"array";s:12:"isIdentifier";b:1;}}s:10:"attributes";a:2:{i:0;a:3:{s:4:"name";s:29:"JetBrains\PhpStorm\ArrayShape";s:10:"isRepeated";b:0;s:9:"arguments";a:1:{i:0;a:2:{s:4:"code";s:42:"[0 => "string", 1 => "int", 2 => "string"]";s:10:"attributes";a:6:{s:9:"startLine";i:389;s:7:"endLine";i:389;s:13:"startTokenPos";i:908;s:12:"startFilePos";i:18494;s:11:"endTokenPos";i:928;s:10:"endFilePos";i:18535;}}}}i:1;a:3:{s:4:"name";s:41:"JetBrains\PhpStorm\Internal\TentativeType";s:10:"isRepeated";b:0;s:9:"arguments";a:0:{}}}s:10:"docComment";s:860:"/**
+ * (PHP 5 &gt;= 5.1.0, PHP 7, PECL pdo &gt;= 0.1.0)<br/>
+ * Fetch extended error information associated with the last operation on the statement handle
+ * @link https://php.net/manual/en/pdostatement.errorinfo.php
+ * @return array <b>PDOStatement::errorInfo</b> returns an array of
+ * error information about the last operation performed by this
+ * statement handle. The array consists of the following fields:
+ * <tr valign="top">
+ * <td>Element</td>
+ * <td>Information</td>
+ * </tr>
+ * <tr valign="top">
+ * <td>0</td>
+ * <td>SQLSTATE error code (a five characters alphanumeric identifier defined
+ * in the ANSI SQL standard).</td>
+ * </tr>
+ * <tr valign="top">
+ * <td>1</td>
+ * <td>Driver specific error code.</td>
+ * </tr>
+ * <tr valign="top">
+ * <td>2</td>
+ * <td>Driver specific error message.</td>
+ * </tr>
+ * @betterReflectionTentativeReturnType
+ */";s:9:"startLine";i:389;s:7:"endLine";i:393;s:11:"startColumn";i:9;s:9:"endColumn";i:9;s:10:"couldThrow";b:0;s:9:"isClosure";b:0;s:11:"isGenerator";b:0;s:10:"isVariadic";b:0;s:9:"modifiers";i:1;s:9:"namespace";N;s:18:"declaringClassName";s:12:"PDOStatement";s:21:"implementingClassName";s:12:"PDOStatement";s:16:"currentClassName";s:12:"PDOStatement";s:9:"aliasName";N;}s:12:"setAttribute";a:20:{s:4:"name";s:12:"setAttribute";s:10:"parameters";a:2:{s:9:"attribute";a:14:{s:4:"name";s:9:"attribute";s:7:"default";N;s:4:"type";a:2:{s:5:"class";s:55:"PHPStan\BetterReflection\Reflection\ReflectionNamedType";s:4:"data";a:2:{s:4:"name";s:3:"int";s:12:"isIdentifier";b:1;}}s:10:"isVariadic";b:0;s:5:"byRef";b:0;s:10:"isPromoted";b:0;s:10:"docComment";N;s:10:"attributes";a:1:{i:0;a:3:{s:4:"name";s:50:"JetBrains\PhpStorm\Internal\LanguageLevelTypeAware";s:10:"isRepeated";b:0;s:9:"arguments";a:2:{i:0;a:2:{s:4:"code";s:16:"['8.0' => 'int']";s:10:"attributes";a:6:{s:9:"startLine";i:407;s:7:"endLine";i:407;s:13:"startTokenPos";i:967;s:12:"startFilePos";i:19409;s:11:"endTokenPos";i:973;s:10:"endFilePos";i:19424;}}s:7:"default";a:2:{s:4:"code";s:2:"''";s:10:"attributes";a:6:{s:9:"startLine";i:407;s:7:"endLine";i:407;s:13:"startTokenPos";i:979;s:12:"startFilePos";i:19436;s:11:"endTokenPos";i:979;s:10:"endFilePos";i:19437;}}}}}s:9:"startLine";i:407;s:7:"endLine";i:408;s:11:"startColumn";i:13;s:9:"endColumn";i:26;s:14:"parameterIndex";i:0;s:10:"isOptional";b:0;}s:5:"value";a:14:{s:4:"name";s:5:"value";s:7:"default";N;s:4:"type";a:2:{s:5:"class";s:55:"PHPStan\BetterReflection\Reflection\ReflectionNamedType";s:4:"data";a:2:{s:4:"name";s:5:"mixed";s:12:"isIdentifier";b:1;}}s:10:"isVariadic";b:0;s:5:"byRef";b:0;s:10:"isPromoted";b:0;s:10:"docComment";N;s:10:"attributes";a:1:{i:0;a:3:{s:4:"name";s:50:"JetBrains\PhpStorm\Internal\LanguageLevelTypeAware";s:10:"isRepeated";b:0;s:9:"arguments";a:2:{i:0;a:2:{s:4:"code";s:18:"['8.0' => 'mixed']";s:10:"attributes";a:6:{s:9:"startLine";i:409;s:7:"endLine";i:409;s:13:"startTokenPos";i:991;s:12:"startFilePos";i:19535;s:11:"endTokenPos";i:997;s:10:"endFilePos";i:19552;}}s:7:"default";a:2:{s:4:"code";s:2:"''";s:10:"attributes";a:6:{s:9:"startLine";i:409;s:7:"endLine";i:409;s:13:"startTokenPos";i:1003;s:12:"startFilePos";i:19564;s:11:"endTokenPos";i:1003;s:10:"endFilePos";i:19565;}}}}}s:9:"startLine";i:409;s:7:"endLine";i:410;s:11:"startColumn";i:13;s:9:"endColumn";i:24;s:14:"parameterIndex";i:1;s:10:"isOptional";b:0;}}s:16:"returnsReference";b:0;s:10:"returnType";a:2:{s:5:"class";s:55:"PHPStan\BetterReflection\Reflection\ReflectionNamedType";s:4:"data";a:2:{s:4:"name";s:4:"bool";s:12:"isIdentifier";b:1;}}s:10:"attributes";a:1:{i:0;a:3:{s:4:"name";s:41:"JetBrains\PhpStorm\Internal\TentativeType";s:10:"isRepeated";b:0;s:9:"arguments";a:0:{}}}s:10:"docComment";s:506:"/**
+ * (PHP 5 &gt;= 5.1.0, PHP 7, PECL pdo &gt;= 0.2.0)<br/>
+ * Set a statement attribute
+ * @link https://php.net/manual/en/pdostatement.setattribute.php
+ * @param int $attribute The attribute to modify.
+ * @param mixed $value The value to set the attribute, might require a specific type
+ * depending on the attribute.
+ * @return bool <b>TRUE</b> on success or <b>FALSE</b> on failure.
+ * @throws PDOException On error if PDO::ERRMODE_EXCEPTION option is true.
+ * @betterReflectionTentativeReturnType
+ */";s:9:"startLine";i:405;s:7:"endLine";i:413;s:11:"startColumn";i:9;s:9:"endColumn";i:9;s:10:"couldThrow";b:0;s:9:"isClosure";b:0;s:11:"isGenerator";b:0;s:10:"isVariadic";b:0;s:9:"modifiers";i:1;s:9:"namespace";N;s:18:"declaringClassName";s:12:"PDOStatement";s:21:"implementingClassName";s:12:"PDOStatement";s:16:"currentClassName";s:12:"PDOStatement";s:9:"aliasName";N;}s:12:"getAttribute";a:20:{s:4:"name";s:12:"getAttribute";s:10:"parameters";a:1:{s:4:"name";a:14:{s:4:"name";s:4:"name";s:7:"default";N;s:4:"type";a:2:{s:5:"class";s:55:"PHPStan\BetterReflection\Reflection\ReflectionNamedType";s:4:"data";a:2:{s:4:"name";s:3:"int";s:12:"isIdentifier";b:1;}}s:10:"isVariadic";b:0;s:5:"byRef";b:0;s:10:"isPromoted";b:0;s:10:"docComment";N;s:10:"attributes";a:1:{i:0;a:3:{s:4:"name";s:50:"JetBrains\PhpStorm\Internal\LanguageLevelTypeAware";s:10:"isRepeated";b:0;s:9:"arguments";a:2:{i:0;a:2:{s:4:"code";s:16:"['8.0' => 'int']";s:10:"attributes";a:6:{s:9:"startLine";i:424;s:7:"endLine";i:424;s:13:"startTokenPos";i:1036;s:12:"startFilePos";i:20138;s:11:"endTokenPos";i:1042;s:10:"endFilePos";i:20153;}}s:7:"default";a:2:{s:4:"code";s:2:"''";s:10:"attributes";a:6:{s:9:"startLine";i:424;s:7:"endLine";i:424;s:13:"startTokenPos";i:1048;s:12:"startFilePos";i:20165;s:11:"endTokenPos";i:1048;s:10:"endFilePos";i:20166;}}}}}s:9:"startLine";i:424;s:7:"endLine";i:425;s:11:"startColumn";i:13;s:9:"endColumn";i:21;s:14:"parameterIndex";i:0;s:10:"isOptional";b:0;}}s:16:"returnsReference";b:0;s:10:"returnType";a:2:{s:5:"class";s:55:"PHPStan\BetterReflection\Reflection\ReflectionNamedType";s:4:"data";a:2:{s:4:"name";s:5:"mixed";s:12:"isIdentifier";b:1;}}s:10:"attributes";a:1:{i:0;a:3:{s:4:"name";s:41:"JetBrains\PhpStorm\Internal\TentativeType";s:10:"isRepeated";b:0;s:9:"arguments";a:0:{}}}s:10:"docComment";s:285:"/**
+ * (PHP 5 &gt;= 5.1.0, PHP 7, PECL pdo &gt;= 0.2.0)<br/>
+ * Retrieve a statement attribute
+ * @link https://php.net/manual/en/pdostatement.getattribute.php
+ * @param int $name The attribute to query.
+ * @return mixed the attribute value.
+ * @betterReflectionTentativeReturnType
+ */";s:9:"startLine";i:422;s:7:"endLine";i:428;s:11:"startColumn";i:9;s:9:"endColumn";i:9;s:10:"couldThrow";b:0;s:9:"isClosure";b:0;s:11:"isGenerator";b:0;s:10:"isVariadic";b:0;s:9:"modifiers";i:1;s:9:"namespace";N;s:18:"declaringClassName";s:12:"PDOStatement";s:21:"implementingClassName";s:12:"PDOStatement";s:16:"currentClassName";s:12:"PDOStatement";s:9:"aliasName";N;}s:11:"columnCount";a:20:{s:4:"name";s:11:"columnCount";s:10:"parameters";a:0:{}s:16:"returnsReference";b:0;s:10:"returnType";a:2:{s:5:"class";s:55:"PHPStan\BetterReflection\Reflection\ReflectionNamedType";s:4:"data";a:2:{s:4:"name";s:3:"int";s:12:"isIdentifier";b:1;}}s:10:"attributes";a:1:{i:0;a:3:{s:4:"name";s:41:"JetBrains\PhpStorm\Internal\TentativeType";s:10:"isRepeated";b:0;s:9:"arguments";a:0:{}}}s:10:"docComment";s:466:"/**
+ * (PHP 5 &gt;= 5.1.0, PHP 7, PECL pdo &gt;= 0.2.0)<br/>
+ * Returns the number of columns in the result set
+ * @link https://php.net/manual/en/pdostatement.columncount.php
+ * @return int the number of columns in the result set represented by the
+ * PDOStatement object. If there is no result set,
+ * <b>PDOStatement::columnCount</b> returns 0.
+ * @throws PDOException On error if PDO::ERRMODE_EXCEPTION option is true.
+ * @betterReflectionTentativeReturnType
+ */";s:9:"startLine";i:439;s:7:"endLine";i:442;s:11:"startColumn";i:9;s:9:"endColumn";i:9;s:10:"couldThrow";b:0;s:9:"isClosure";b:0;s:11:"isGenerator";b:0;s:10:"isVariadic";b:0;s:9:"modifiers";i:1;s:9:"namespace";N;s:18:"declaringClassName";s:12:"PDOStatement";s:21:"implementingClassName";s:12:"PDOStatement";s:16:"currentClassName";s:12:"PDOStatement";s:9:"aliasName";N;}s:13:"getColumnMeta";a:20:{s:4:"name";s:13:"getColumnMeta";s:10:"parameters";a:1:{s:6:"column";a:14:{s:4:"name";s:6:"column";s:7:"default";N;s:4:"type";a:2:{s:5:"class";s:55:"PHPStan\BetterReflection\Reflection\ReflectionNamedType";s:4:"data";a:2:{s:4:"name";s:3:"int";s:12:"isIdentifier";b:1;}}s:10:"isVariadic";b:0;s:5:"byRef";b:0;s:10:"isPromoted";b:0;s:10:"docComment";N;s:10:"attributes";a:1:{i:0;a:3:{s:4:"name";s:50:"JetBrains\PhpStorm\Internal\LanguageLevelTypeAware";s:10:"isRepeated";b:0;s:9:"arguments";a:2:{i:0;a:2:{s:4:"code";s:16:"['8.0' => 'int']";s:10:"attributes";a:6:{s:9:"startLine";i:507;s:7:"endLine";i:507;s:13:"startTokenPos";i:1164;s:12:"startFilePos";i:23585;s:11:"endTokenPos";i:1170;s:10:"endFilePos";i:23600;}}s:7:"default";a:2:{s:4:"code";s:2:"''";s:10:"attributes";a:6:{s:9:"startLine";i:507;s:7:"endLine";i:507;s:13:"startTokenPos";i:1176;s:12:"startFilePos";i:23612;s:11:"endTokenPos";i:1176;s:10:"endFilePos";i:23613;}}}}}s:9:"startLine";i:507;s:7:"endLine";i:508;s:11:"startColumn";i:13;s:9:"endColumn";i:23;s:14:"parameterIndex";i:0;s:10:"isOptional";b:0;}}s:16:"returnsReference";b:0;s:10:"returnType";a:2:{s:5:"class";s:55:"PHPStan\BetterReflection\Reflection\ReflectionUnionType";s:4:"data";a:1:{s:5:"types";a:2:{i:0;a:2:{s:5:"class";s:55:"PHPStan\BetterReflection\Reflection\ReflectionNamedType";s:4:"data";a:2:{s:4:"name";s:5:"array";s:12:"isIdentifier";b:1;}}i:1;a:2:{s:5:"class";s:55:"PHPStan\BetterReflection\Reflection\ReflectionNamedType";s:4:"data";a:2:{s:4:"name";s:5:"false";s:12:"isIdentifier";b:1;}}}}}s:10:"attributes";a:2:{i:0;a:3:{s:4:"name";s:41:"JetBrains\PhpStorm\Internal\TentativeType";s:10:"isRepeated";b:0;s:9:"arguments";a:0:{}}i:1;a:3:{s:4:"name";s:29:"JetBrains\PhpStorm\ArrayShape";s:10:"isRepeated";b:0;s:9:"arguments";a:1:{i:0;a:2:{s:4:"code";s:177:"["name" => "string", "len" => "int", "precision" => "int", "oci:decl_type" => "int|string", "native_type" => "string", "scale" => "int", "flags" => "array", "pdo_type" => "int"]";s:10:"attributes";a:6:{s:9:"startLine";i:505;s:7:"endLine";i:505;s:13:"startTokenPos";i:1095;s:12:"startFilePos";i:23300;s:11:"endTokenPos";i:1150;s:10:"endFilePos";i:23476;}}}}}s:10:"docComment";s:1823:"/**
+ * (PHP 5 &gt;= 5.1.0, PHP 7, PECL pdo &gt;= 0.2.0)<br/>
+ * Returns metadata for a column in a result set
+ * @link https://php.net/manual/en/pdostatement.getcolumnmeta.php
+ * @param int $column <p>
+ * The 0-indexed column in the result set.
+ * </p>
+ * @return array|false an associative array containing the following values representing
+ * the metadata for a single column:
+ * </p>
+ * <table>
+ * Column metadata
+ * <tr valign="top">
+ * <td>Name</td>
+ * <td>Value</td>
+ * </tr>
+ * <tr valign="top">
+ * <td>native_type</td>
+ * <td>The PHP native type used to represent the column value.</td>
+ * </tr>
+ * <tr valign="top">
+ * <td>driver:decl_type</td>
+ * <td>The SQL type used to represent the column value in the database.
+ * If the column in the result set is the result of a function, this value
+ * is not returned by <b>PDOStatement::getColumnMeta</b>.
+ * </td>
+ * </tr>
+ * <tr valign="top">
+ * <td>flags</td>
+ * <td>Any flags set for this column.</td>
+ * </tr>
+ * <tr valign="top">
+ * <td>name</td>
+ * <td>The name of this column as returned by the database.</td>
+ * </tr>
+ * <tr valign="top">
+ * <td>table</td>
+ * <td>The name of this column's table as returned by the database.</td>
+ * </tr>
+ * <tr valign="top">
+ * <td>len</td>
+ * <td>The length of this column. Normally -1 for
+ * types other than floating point decimals.</td>
+ * </tr>
+ * <tr valign="top">
+ * <td>precision</td>
+ * <td>The numeric precision of this column. Normally
+ * 0 for types other than floating point
+ * decimals.</td>
+ * </tr>
+ * <tr valign="top">
+ * <td>pdo_type</td>
+ * <td>The type of this column as represented by the
+ * PDO::PARAM_* constants.</td>
+ * </tr>
+ * </table>
+ * <p>
+ * Returns <b>FALSE</b> if the requested column does not exist in the result set,
+ * or if no result set exists.
+ * @betterReflectionTentativeReturnType
+ */";s:9:"startLine";i:504;s:7:"endLine";i:511;s:11:"startColumn";i:9;s:9:"endColumn";i:9;s:10:"couldThrow";b:0;s:9:"isClosure";b:0;s:11:"isGenerator";b:0;s:10:"isVariadic";b:0;s:9:"modifiers";i:1;s:9:"namespace";N;s:18:"declaringClassName";s:12:"PDOStatement";s:21:"implementingClassName";s:12:"PDOStatement";s:16:"currentClassName";s:12:"PDOStatement";s:9:"aliasName";N;}s:12:"setFetchMode";a:20:{s:4:"name";s:12:"setFetchMode";s:10:"parameters";a:2:{s:4:"mode";a:14:{s:4:"name";s:4:"mode";s:7:"default";N;s:4:"type";a:2:{s:5:"class";s:55:"PHPStan\BetterReflection\Reflection\ReflectionNamedType";s:4:"data";a:2:{s:4:"name";s:3:"int";s:12:"isIdentifier";b:1;}}s:10:"isVariadic";b:0;s:5:"byRef";b:0;s:10:"isPromoted";b:0;s:10:"docComment";N;s:10:"attributes";a:1:{i:0;a:3:{s:4:"name";s:50:"JetBrains\PhpStorm\Internal\LanguageLevelTypeAware";s:10:"isRepeated";b:0;s:9:"arguments";a:2:{i:0;a:2:{s:4:"code";s:16:"['8.0' => 'int']";s:10:"attributes";a:6:{s:9:"startLine";i:527;s:7:"endLine";i:527;s:13:"startTokenPos";i:1230;s:12:"startFilePos";i:24548;s:11:"endTokenPos";i:1236;s:10:"endFilePos";i:24563;}}s:7:"default";a:2:{s:4:"code";s:2:"''";s:10:"attributes";a:6:{s:9:"startLine";i:527;s:7:"endLine";i:527;s:13:"startTokenPos";i:1242;s:12:"startFilePos";i:24575;s:11:"endTokenPos";i:1242;s:10:"endFilePos";i:24576;}}}}}s:9:"startLine";i:527;s:7:"endLine";i:528;s:11:"startColumn";i:13;s:9:"endColumn";i:21;s:14:"parameterIndex";i:0;s:10:"isOptional";b:0;}s:4:"args";a:14:{s:4:"name";s:4:"args";s:7:"default";N;s:4:"type";a:2:{s:5:"class";s:55:"PHPStan\BetterReflection\Reflection\ReflectionNamedType";s:4:"data";a:2:{s:4:"name";s:5:"mixed";s:12:"isIdentifier";b:1;}}s:10:"isVariadic";b:1;s:5:"byRef";b:0;s:10:"isPromoted";b:0;s:10:"docComment";N;s:10:"attributes";a:0:{}s:9:"startLine";i:529;s:7:"endLine";i:529;s:11:"startColumn";i:13;s:9:"endColumn";i:26;s:14:"parameterIndex";i:1;s:10:"isOptional";b:1;}}s:16:"returnsReference";b:0;s:10:"returnType";N;s:10:"attributes";a:2:{i:0;a:3:{s:4:"name";s:41:"JetBrains\PhpStorm\Internal\TentativeType";s:10:"isRepeated";b:0;s:9:"arguments";a:0:{}}i:1;a:3:{s:4:"name";s:50:"JetBrains\PhpStorm\Internal\LanguageLevelTypeAware";s:10:"isRepeated";b:0;s:9:"arguments";a:2:{i:0;a:2:{s:4:"code";s:17:"['8.4' => 'true']";s:10:"attributes";a:6:{s:9:"startLine";i:525;s:7:"endLine";i:525;s:13:"startTokenPos";i:1204;s:12:"startFilePos";i:24407;s:11:"endTokenPos";i:1210;s:10:"endFilePos";i:24423;}}s:7:"default";a:2:{s:4:"code";s:6:"'bool'";s:10:"attributes";a:6:{s:9:"startLine";i:525;s:7:"endLine";i:525;s:13:"startTokenPos";i:1216;s:12:"startFilePos";i:24435;s:11:"endTokenPos";i:1216;s:10:"endFilePos";i:24440;}}}}}s:10:"docComment";s:510:"/**
+ * (PHP 5 &gt;= 5.1.0, PHP 7, PECL pdo &gt;= 0.2.0)<br/>
+ * Set the default fetch mode for this statement
+ * @link https://php.net/manual/en/pdostatement.setfetchmode.php
+ * @param int $mode <p>
+ * The fetch mode must be one of the PDO::FETCH_* constants.
+ * </p>
+ * @param mixed ...$args <p> Constructor arguments. </p>
+ * @return bool <b>TRUE</b> on success or <b>FALSE</b> on failure.
+ * @throws PDOException On error if PDO::ERRMODE_EXCEPTION option is true.
+ * @betterReflectionTentativeReturnType
+ */";s:9:"startLine";i:524;s:7:"endLine";i:532;s:11:"startColumn";i:9;s:9:"endColumn";i:9;s:10:"couldThrow";b:0;s:9:"isClosure";b:0;s:11:"isGenerator";b:0;s:10:"isVariadic";b:1;s:9:"modifiers";i:1;s:9:"namespace";N;s:18:"declaringClassName";s:12:"PDOStatement";s:21:"implementingClassName";s:12:"PDOStatement";s:16:"currentClassName";s:12:"PDOStatement";s:9:"aliasName";N;}s:10:"nextRowset";a:20:{s:4:"name";s:10:"nextRowset";s:10:"parameters";a:0:{}s:16:"returnsReference";b:0;s:10:"returnType";a:2:{s:5:"class";s:55:"PHPStan\BetterReflection\Reflection\ReflectionNamedType";s:4:"data";a:2:{s:4:"name";s:4:"bool";s:12:"isIdentifier";b:1;}}s:10:"attributes";a:1:{i:0;a:3:{s:4:"name";s:41:"JetBrains\PhpStorm\Internal\TentativeType";s:10:"isRepeated";b:0;s:9:"arguments";a:0:{}}}s:10:"docComment";s:375:"/**
+ * (PHP 5 &gt;= 5.1.0, PHP 7, PECL pdo &gt;= 0.2.0)<br/>
+ * Advances to the next rowset in a multi-rowset statement handle
+ * @link https://php.net/manual/en/pdostatement.nextrowset.php
+ * @return bool <b>TRUE</b> on success or <b>FALSE</b> on failure.
+ * @throws PDOException On error if PDO::ERRMODE_EXCEPTION option is true.
+ * @betterReflectionTentativeReturnType
+ */";s:9:"startLine";i:541;s:7:"endLine";i:544;s:11:"startColumn";i:9;s:9:"endColumn";i:9;s:10:"couldThrow";b:0;s:9:"isClosure";b:0;s:11:"isGenerator";b:0;s:10:"isVariadic";b:0;s:9:"modifiers";i:1;s:9:"namespace";N;s:18:"declaringClassName";s:12:"PDOStatement";s:21:"implementingClassName";s:12:"PDOStatement";s:16:"currentClassName";s:12:"PDOStatement";s:9:"aliasName";N;}s:11:"closeCursor";a:20:{s:4:"name";s:11:"closeCursor";s:10:"parameters";a:0:{}s:16:"returnsReference";b:0;s:10:"returnType";a:2:{s:5:"class";s:55:"PHPStan\BetterReflection\Reflection\ReflectionNamedType";s:4:"data";a:2:{s:4:"name";s:4:"bool";s:12:"isIdentifier";b:1;}}s:10:"attributes";a:1:{i:0;a:3:{s:4:"name";s:41:"JetBrains\PhpStorm\Internal\TentativeType";s:10:"isRepeated";b:0;s:9:"arguments";a:0:{}}}s:10:"docComment";s:377:"/**
+ * (PHP 5 &gt;= 5.1.0, PHP 7, PECL pdo &gt;= 0.9.0)<br/>
+ * Closes the cursor, enabling the statement to be executed again.
+ * @link https://php.net/manual/en/pdostatement.closecursor.php
+ * @return bool <b>TRUE</b> on success or <b>FALSE</b> on failure.
+ * @throws PDOException On error if PDO::ERRMODE_EXCEPTION option is true.
+ * @betterReflectionTentativeReturnType
+ */";s:9:"startLine";i:553;s:7:"endLine";i:556;s:11:"startColumn";i:9;s:9:"endColumn";i:9;s:10:"couldThrow";b:0;s:9:"isClosure";b:0;s:11:"isGenerator";b:0;s:10:"isVariadic";b:0;s:9:"modifiers";i:1;s:9:"namespace";N;s:18:"declaringClassName";s:12:"PDOStatement";s:21:"implementingClassName";s:12:"PDOStatement";s:16:"currentClassName";s:12:"PDOStatement";s:9:"aliasName";N;}s:15:"debugDumpParams";a:20:{s:4:"name";s:15:"debugDumpParams";s:10:"parameters";a:0:{}s:16:"returnsReference";b:0;s:10:"returnType";a:2:{s:5:"class";s:55:"PHPStan\BetterReflection\Reflection\ReflectionUnionType";s:4:"data";a:1:{s:5:"types";a:2:{i:0;a:2:{s:5:"class";s:55:"PHPStan\BetterReflection\Reflection\ReflectionNamedType";s:4:"data";a:2:{s:4:"name";s:4:"bool";s:12:"isIdentifier";b:1;}}i:1;a:2:{s:5:"class";s:55:"PHPStan\BetterReflection\Reflection\ReflectionNamedType";s:4:"data";a:2:{s:4:"name";s:4:"null";s:12:"isIdentifier";b:1;}}}}}s:10:"attributes";a:1:{i:0;a:3:{s:4:"name";s:41:"JetBrains\PhpStorm\Internal\TentativeType";s:10:"isRepeated";b:0;s:9:"arguments";a:0:{}}}s:10:"docComment";s:247:"/**
+ * (PHP 5 &gt;= 5.1.0, PHP 7, PECL pdo &gt;= 0.9.0)<br/>
+ * Dump an SQL prepared command
+ * @link https://php.net/manual/en/pdostatement.debugdumpparams.php
+ * @return bool|null No value is returned.
+ * @betterReflectionTentativeReturnType
+ */";s:9:"startLine";i:564;s:7:"endLine";i:567;s:11:"startColumn";i:9;s:9:"endColumn";i:9;s:10:"couldThrow";b:0;s:9:"isClosure";b:0;s:11:"isGenerator";b:0;s:10:"isVariadic";b:0;s:9:"modifiers";i:1;s:9:"namespace";N;s:18:"declaringClassName";s:12:"PDOStatement";s:21:"implementingClassName";s:12:"PDOStatement";s:16:"currentClassName";s:12:"PDOStatement";s:9:"aliasName";N;}s:8:"__wakeup";a:20:{s:4:"name";s:8:"__wakeup";s:10:"parameters";a:0:{}s:16:"returnsReference";b:0;s:10:"returnType";N;s:10:"attributes";a:0:{}s:10:"docComment";N;s:9:"startLine";i:568;s:7:"endLine";i:570;s:11:"startColumn";i:9;s:9:"endColumn";i:9;s:10:"couldThrow";b:0;s:9:"isClosure";b:0;s:11:"isGenerator";b:0;s:10:"isVariadic";b:0;s:9:"modifiers";i:33;s:9:"namespace";N;s:18:"declaringClassName";s:12:"PDOStatement";s:21:"implementingClassName";s:12:"PDOStatement";s:16:"currentClassName";s:12:"PDOStatement";s:9:"aliasName";N;}s:7:"__sleep";a:20:{s:4:"name";s:7:"__sleep";s:10:"parameters";a:0:{}s:16:"returnsReference";b:0;s:10:"returnType";N;s:10:"attributes";a:0:{}s:10:"docComment";N;s:9:"startLine";i:571;s:7:"endLine";i:573;s:11:"startColumn";i:9;s:9:"endColumn";i:9;s:10:"couldThrow";b:0;s:9:"isClosure";b:0;s:11:"isGenerator";b:0;s:10:"isVariadic";b:0;s:9:"modifiers";i:33;s:9:"namespace";N;s:18:"declaringClassName";s:12:"PDOStatement";s:21:"implementingClassName";s:12:"PDOStatement";s:16:"currentClassName";s:12:"PDOStatement";s:9:"aliasName";N;}s:11:"getIterator";a:20:{s:4:"name";s:11:"getIterator";s:10:"parameters";a:0:{}s:16:"returnsReference";b:0;s:10:"returnType";a:2:{s:5:"class";s:55:"PHPStan\BetterReflection\Reflection\ReflectionNamedType";s:4:"data";a:2:{s:4:"name";s:8:"Iterator";s:12:"isIdentifier";b:0;}}s:10:"attributes";a:0:{}s:10:"docComment";s:133:"/**
+ * Gets result set iterator
+ * @link https://php.net/manual/en/pdostatement.getiterator.php
+ * @return Iterator
+ * @since 8.0
+ */";s:9:"startLine";i:580;s:7:"endLine";i:582;s:11:"startColumn";i:9;s:9:"endColumn";i:9;s:10:"couldThrow";b:0;s:9:"isClosure";b:0;s:11:"isGenerator";b:0;s:10:"isVariadic";b:0;s:9:"modifiers";i:1;s:9:"namespace";N;s:18:"declaringClassName";s:12:"PDOStatement";s:21:"implementingClassName";s:12:"PDOStatement";s:16:"currentClassName";s:12:"PDOStatement";s:9:"aliasName";N;}s:7:"connect";a:20:{s:4:"name";s:7:"connect";s:10:"parameters";a:0:{}s:16:"returnsReference";b:0;s:10:"returnType";N;s:10:"attributes";a:0:{}s:10:"docComment";N;s:9:"startLine";i:583;s:7:"endLine";i:585;s:11:"startColumn";i:9;s:9:"endColumn";i:9;s:10:"couldThrow";b:0;s:9:"isClosure";b:0;s:11:"isGenerator";b:0;s:10:"isVariadic";b:0;s:9:"modifiers";i:1;s:9:"namespace";N;s:18:"declaringClassName";s:12:"PDOStatement";s:21:"implementingClassName";s:12:"PDOStatement";s:16:"currentClassName";s:12:"PDOStatement";s:9:"aliasName";N;}}s:10:"traitsData";a:4:{s:7:"aliases";a:0:{}s:9:"modifiers";a:0:{}s:11:"precedences";a:0:{}s:6:"hashes";a:0:{}}}}

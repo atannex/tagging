@@ -1,0 +1,1 @@
+O:23:"PHPStan\Cache\CacheItem":2:{s:11:"variableKey";s:71:"v2-0c60535a0c04132cd1a2fe3b49ce734ed372ad07b4e58f7fac0b838d61fad9e6-8.5";s:4:"data";a:3:{s:7:"classes";a:1:{s:37:"illuminate\database\deadlockexception";b:1;}s:9:"functions";a:0:{}s:9:"constants";a:0:{}}}

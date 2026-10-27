@@ -1,0 +1,18 @@
+#!/usr/bin/env bash
+set -euo pipefail
+cd "$(dirname "$0")/.."
+driver="${1:?Usage: test-database mysql|pgsql [port]}"
+case "$driver" in
+    mysql) default_port=13316 ;;
+    pgsql) default_port=15436 ;;
+    *) echo 'Only mysql and pgsql disposable services are supported.' >&2; exit 2 ;;
+esac
+export TAGGING_DB="$driver"
+export TAGGING_DB_DATABASE=tagging
+export TAGGING_DB_PORT="${2:-$default_port}"
+export TAGGING_DB_RESET=1
+php_cmd="${TAGGING_PHP_BINARY:-php}"
+autoload_file="${TAGGING_TEST_AUTOLOAD:-$PWD/vendor/autoload.php}"
+shift
+if (( $# )); then shift; fi
+"$php_cmd" "$(dirname "$autoload_file")/phpunit/phpunit/phpunit" -c phpunit.xml.dist "$@"
