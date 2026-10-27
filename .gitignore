@@ -4,3 +4,10 @@
 /.phpstan-cache/
 .phpunit.result.cache
 /database-results.xml
+/docs
+/tests
+/phpunit.xml.dist
+/.github/workflows/tests.yml
+/CHANGELOG.md
+/CONTRIBUTING.md
+/benchmarks
