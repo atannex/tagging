@@ -1,0 +1,6 @@
+includes:
+    - ../../phpstan.neon
+parameters:
+    paths!:
+        - ../../src
+        - TaggedModel.php

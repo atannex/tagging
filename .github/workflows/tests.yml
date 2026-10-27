@@ -1,0 +1,62 @@
+name: Checks
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  compatibility:
+    name: PHP ${{ matrix.php }} · Laravel ${{ matrix.framework }} (${{ matrix.resolution }})
+    runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false
+      matrix:
+        include:
+          - { php: '8.2', framework: '11', bench: '9', resolution: lowest }
+          - { php: '8.2', framework: '12', bench: '10', resolution: lowest }
+          - { php: '8.3', framework: '12', bench: '10', resolution: highest }
+          - { php: '8.3', framework: '13', bench: '11', resolution: lowest }
+          - { php: '8.4', framework: '13', bench: '11', resolution: highest }
+          - { php: '8.5', framework: '13', bench: '11', resolution: highest }
+    steps:
+      - uses: actions/checkout@v4
+      - uses: shivammathur/setup-php@v2
+        with:
+          php-version: ${{ matrix.php }}
+          extensions: mbstring, pdo_sqlite, intl
+          coverage: none
+      - name: Install the framework profile
+        env:
+          COMPOSER_ROOT_VERSION: dev-main
+          FRAMEWORK: ${{ matrix.framework }}
+          BENCH: ${{ matrix.bench }}
+          RESOLUTION: ${{ matrix.resolution }}
+        run: |
+          composer require --no-update "illuminate/database:^$FRAMEWORK.0" "illuminate/support:^$FRAMEWORK.0" "illuminate/events:^$FRAMEWORK.0" "illuminate/console:^$FRAMEWORK.0" "illuminate/contracts:^$FRAMEWORK.0"
+          composer require --dev --no-update "orchestra/testbench:^$BENCH.0"
+          # Laravel 11 is past security support; let Composer resolve it anyway.
+          if test "$FRAMEWORK" = 11; then composer config audit.block-insecure false; fi
+          if test "$RESOLUTION" = lowest; then composer update --prefer-lowest --prefer-stable --no-interaction --no-progress; else composer update --prefer-dist --no-interaction --no-progress; fi
+      - name: Every class autoloads from its PSR-4 path
+        run: composer dump-autoload --optimize --strict-psr
+      - name: Every source file parses
+        run: find src config database lang -name '*.php' -print0 | xargs -0 -n1 php -l > /dev/null
+  quality:
+    name: Formatting and static analysis
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: shivammathur/setup-php@v2
+        with:
+          php-version: '8.4'
+          extensions: mbstring, pdo_sqlite, intl
+          coverage: none
+      - run: composer update --prefer-dist --no-interaction --no-progress
+        env:
+          COMPOSER_ROOT_VERSION: dev-main
+      - run: composer validate --strict --no-check-lock
+      - run: composer audit
+      - run: vendor/bin/pint --test
+      - run: vendor/bin/phpstan analyse -c .github/phpstan/phpstan.neon --memory-limit=512M --no-progress
