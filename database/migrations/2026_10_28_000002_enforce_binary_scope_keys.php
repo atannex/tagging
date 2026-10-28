@@ -1,6 +1,7 @@
 <?php
 
 use Atannex\Tagging\Exceptions\VocabularyCollision;
+use Atannex\Tagging\Support\BinaryCollation;
 use Illuminate\Database\Migrations\Migration;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Support\Facades\DB;
@@ -10,7 +11,10 @@ return new class extends Migration
 {
     public function up(): void
     {
-        $this->collation('utf8mb4_0900_bin');
+        // utf8mb4_0900_bin on MySQL 8, utf8mb4_nopad_bin on MariaDB.
+        if ($collation = BinaryCollation::for()) {
+            $this->collation($collation);
+        }
     }
 
     public function down(): void
@@ -34,7 +38,8 @@ return new class extends Migration
         if (! in_array(DB::getDriverName(), ['mysql', 'mariadb'], true)) {
             return;
         }
-        // A NO PAD binary collation also preserves trailing spaces, matching PostgreSQL/SQLite identity semantics.
+        // A NO PAD binary collation also preserves trailing spaces, matching PostgreSQL/SQLite identity semantics
+        // (utf8mb4_bin, the last fallback, pads; it still separates case and accents).
         $columns = [
             'tagging_tags' => ['tenant' => 64, 'taxonomy' => 64, 'slug' => 160],
             'tagging_names' => ['tenant' => 64, 'taxonomy' => 64, 'slug' => 160],

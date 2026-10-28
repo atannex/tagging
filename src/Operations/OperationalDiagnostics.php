@@ -3,6 +3,7 @@
 namespace Atannex\Tagging\Operations;
 
 use Atannex\Tagging\Governance\AssignmentPolicy;
+use Atannex\Tagging\Support\BinaryCollation;
 use Atannex\Tagging\Support\Settings;
 use Atannex\Tagging\TagSpace;
 use Atannex\Tagging\Taxonomy\Definition;
@@ -56,10 +57,10 @@ final class OperationalDiagnostics
         if (! $parentIndexed) {
             $issues[] = ['code' => 'missing_index', 'table' => 'tagging_tags', 'index' => 'parent_id supporting index'];
         }
-        if (DB::getDriverName() === 'mysql') {
+        if ($binary = BinaryCollation::for()) {
             foreach (['tagging_tags' => ['tenant', 'taxonomy', 'slug'], 'tagging_assignments' => ['taggable_type', 'taggable_id', 'context']] as $table => $fields) {
                 foreach (Schema::getColumns($table) as $column) {
-                    if (in_array($column['name'], $fields, true) && ($column['collation'] ?? null) !== 'utf8mb4_0900_bin') {
+                    if (in_array($column['name'], $fields, true) && ($column['collation'] ?? null) !== $binary) {
                         $issues[] = ['code' => 'invalid_scope_collation', 'table' => $table, 'column' => $column['name']];
                     }
                 }
