@@ -7,11 +7,3 @@ Tags and topics for Laravel models. Any model can be tagged, tags can be arrange
 ```bash
 composer require atannex/tagging
 ```
-
-## Documentation
-
-The full guide is in [docs/overview.md](docs/overview.md).
-
-## License
-
-MIT.
